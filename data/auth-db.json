@@ -1,0 +1,52 @@
+{
+  "profiles": [
+    {
+      "id": "ed2dc572-410e-474b-84be-83115731b006",
+      "name": "Okyaku",
+      "email": "mia@gmail.com",
+      "address": "Schulstraße 12, 25469 Halstenbek",
+      "phone": "123456789",
+      "master_key_hash": "5838c44b26a5b48686cabcbb5b6200c992c585ef42ebbecc508d78ec989ac21e",
+      "admin_pin_hash": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+      "waiter_pin_hash": "5994471abb01112afcc18159f6cc74b4f511b99806da59b3caf5a9c173cacfc5",
+      "admin_pin_enabled": true,
+      "waiter_pin_enabled": true,
+      "reset_code_hash": null,
+      "reset_code_expires_at": null,
+      "created_at": "2026-03-18T01:20:57.516Z",
+      "updated_at": "2026-03-19T03:21:51.281Z"
+    },
+    {
+      "id": "9158ca89-5c62-48cd-bca2-187c40f13294",
+      "name": "MOMO",
+      "email": "nia@gmail.com",
+      "address": "dsdsf",
+      "phone": "1245678676543",
+      "master_key_hash": "aba8d8c82a61ce908951f61a337498f490f963673eee67f9d23129a54931d015",
+      "admin_pin_hash": "8072d5211bb5f9f9c2408abb8408015fdb7f42b892e5ea9e86f3d4a8faf79c10",
+      "waiter_pin_hash": "f9338c574aed85ea154de3da5e5a8163077d4b2a7307f80ff099709de037b7b7",
+      "admin_pin_enabled": true,
+      "waiter_pin_enabled": true,
+      "reset_code_hash": null,
+      "reset_code_expires_at": null,
+      "created_at": "2026-03-18T01:41:00.674Z",
+      "updated_at": "2026-03-18T01:41:00.674Z"
+    },
+    {
+      "id": "36e4c694-9ad6-45b4-860e-8acfcc2b6e03",
+      "name": "Mai Mai",
+      "email": "miar.md78692@gmail.com",
+      "address": "jdyjdj",
+      "phone": "1234567890",
+      "master_key_hash": "5838c44b26a5b48686cabcbb5b6200c992c585ef42ebbecc508d78ec989ac21e",
+      "admin_pin_hash": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+      "waiter_pin_hash": "5994471abb01112afcc18159f6cc74b4f511b99806da59b3caf5a9c173cacfc5",
+      "admin_pin_enabled": true,
+      "waiter_pin_enabled": true,
+      "reset_code_hash": "$2b$10$A.VtmSqe5Nq3.S9ZRNADK.opGo3ET4dS7TmXbUGhI.Os9wUSmwr3K",
+      "reset_code_expires_at": "2026-03-20T11:54:12.971Z",
+      "created_at": "2026-03-18T22:14:22.142Z",
+      "updated_at": "2026-03-20T11:39:12.971Z"
+    }
+  ]
+}

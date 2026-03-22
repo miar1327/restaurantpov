@@ -1,0 +1,3557 @@
+{
+  "restaurants": {
+    "ed2dc572-410e-474b-84be-83115731b006": {
+      "settings": {
+        "restaurant_name": "Rose",
+        "address": "",
+        "phone": "123456789",
+        "location_city": "",
+        "location_postal_code": "",
+        "location_street": "",
+        "location_house_number": "",
+        "default_delivery_charge": 2.5,
+        "editing_mode_enabled": false,
+        "custom_page_labels": {
+          "dashboard": "Dashboard",
+          "new-order": "New Order",
+          "menu": "Menu Management",
+          "reports": "Daily Reports",
+          "settings": "Settings",
+          "restaurants": "Restaurant Access"
+        },
+        "page_visibility": {
+          "dashboard": true,
+          "new-order": true,
+          "menu": true,
+          "reports": true,
+          "settings": true,
+          "restaurants": true
+        },
+        "page_order": [
+          "dashboard",
+          "new-order",
+          "menu",
+          "reports",
+          "settings",
+          "restaurants"
+        ],
+        "ui_labels": {
+          "dashboard_title": "Dashboard",
+          "dashboard_subtitle_prefix": "Shared live queue for",
+          "dashboard_cta_label": "New Order",
+          "dashboard_search_title": "Search Orders",
+          "dashboard_filters_title": "Order Filters",
+          "dashboard_orders_title": "Today's Queue"
+        },
+        "dashboard_section_order": [
+          "search",
+          "filters",
+          "orders"
+        ]
+      },
+      "categories": [
+        {
+          "id": "8a64e462-e73e-4643-9270-416d84691f80",
+          "name": "SUPPEN",
+          "sort_order": 0,
+          "is_active": true,
+          "created_at": "2026-03-19T02:54:54.811Z",
+          "updated_at": "2026-03-19T02:54:54.811Z"
+        },
+        {
+          "id": "1ab7d075-1447-4c54-88c6-f1072faf7890",
+          "name": "VORSPEISEN",
+          "sort_order": 1,
+          "is_active": true,
+          "created_at": "2026-03-19T02:54:54.811Z",
+          "updated_at": "2026-03-19T02:54:54.811Z"
+        },
+        {
+          "id": "14fe1780-d5ad-4fd5-ae30-ff527dd08d6f",
+          "name": "SALATE",
+          "sort_order": 2,
+          "is_active": true,
+          "created_at": "2026-03-19T02:54:54.811Z",
+          "updated_at": "2026-03-19T02:54:54.811Z"
+        },
+        {
+          "id": "fca35f8b-0a50-4f6a-8d95-c479ac48f277",
+          "name": "OKYAKU SPEZIAL",
+          "sort_order": 3,
+          "is_active": true,
+          "created_at": "2026-03-19T02:54:54.811Z",
+          "updated_at": "2026-03-19T02:54:54.811Z"
+        },
+        {
+          "id": "3e547e40-8b6b-4088-be1d-df4e6bc2d5e3",
+          "name": "GEFLÜGELGERICHTE",
+          "sort_order": 4,
+          "is_active": true,
+          "created_at": "2026-03-19T02:54:54.811Z",
+          "updated_at": "2026-03-19T02:54:54.811Z"
+        },
+        {
+          "id": "8cceefec-2bac-4c5d-99fd-054b8776567b",
+          "name": "FLEISCHGERICHTE",
+          "sort_order": 5,
+          "is_active": true,
+          "created_at": "2026-03-19T02:54:54.811Z",
+          "updated_at": "2026-03-19T02:54:54.811Z"
+        },
+        {
+          "id": "c0f30ae0-4822-4fcc-b4f0-496cf82ea8a4",
+          "name": "FISCH & MEERESFRÜCHTE",
+          "sort_order": 6,
+          "is_active": true,
+          "created_at": "2026-03-19T02:54:54.811Z",
+          "updated_at": "2026-03-19T02:54:54.811Z"
+        },
+        {
+          "id": "4aaa9328-d6e6-4809-8fbe-2de8853f7d65",
+          "name": "EINTOPF",
+          "sort_order": 7,
+          "is_active": true,
+          "created_at": "2026-03-19T02:54:54.811Z",
+          "updated_at": "2026-03-19T02:54:54.811Z"
+        },
+        {
+          "id": "58b2a736-1879-4715-9116-e24a99c7fd18",
+          "name": "VEGETARISCH",
+          "sort_order": 8,
+          "is_active": true,
+          "created_at": "2026-03-19T02:54:54.811Z",
+          "updated_at": "2026-03-19T02:54:54.811Z"
+        },
+        {
+          "id": "6183ed55-8868-456a-815f-418503c4ebd2",
+          "name": "NUDELSUPPEN (THUKPA)",
+          "sort_order": 9,
+          "is_active": true,
+          "created_at": "2026-03-19T02:54:54.811Z",
+          "updated_at": "2026-03-19T02:54:54.811Z"
+        },
+        {
+          "id": "8f407bac-5f83-45ad-aeed-2cdd694fed14",
+          "name": "KINDER MENÜ",
+          "sort_order": 10,
+          "is_active": true,
+          "created_at": "2026-03-19T02:54:54.811Z",
+          "updated_at": "2026-03-19T02:54:54.811Z"
+        },
+        {
+          "id": "fd8a5466-cca7-47d7-a0e5-743eac57d5e3",
+          "name": "NIGIRI",
+          "sort_order": 11,
+          "is_active": true,
+          "created_at": "2026-03-19T02:54:54.811Z",
+          "updated_at": "2026-03-19T02:54:54.811Z"
+        },
+        {
+          "id": "18ef72f5-a207-49b1-8a51-a66e8d3d5f46",
+          "name": "NIGIRI PLATTE",
+          "sort_order": 12,
+          "is_active": true,
+          "created_at": "2026-03-19T02:54:54.811Z",
+          "updated_at": "2026-03-19T02:54:54.811Z"
+        },
+        {
+          "id": "f88771d7-e4fb-4d97-95f6-99c2ed85c76d",
+          "name": "SASHIMI",
+          "sort_order": 13,
+          "is_active": true,
+          "created_at": "2026-03-19T02:54:54.811Z",
+          "updated_at": "2026-03-19T02:54:54.811Z"
+        },
+        {
+          "id": "d7443f15-ee57-4fdd-964a-7141160f65ea",
+          "name": "SASHIMI NEW STYLE",
+          "sort_order": 14,
+          "is_active": true,
+          "created_at": "2026-03-19T02:54:54.811Z",
+          "updated_at": "2026-03-19T02:54:54.811Z"
+        },
+        {
+          "id": "e29981f7-17d4-47f2-a0d5-dbda2ada12e3",
+          "name": "MAKI SUSHI",
+          "sort_order": 15,
+          "is_active": true,
+          "created_at": "2026-03-19T02:54:54.811Z",
+          "updated_at": "2026-03-19T02:54:54.811Z"
+        },
+        {
+          "id": "64e6b3f4-1b18-4564-9bf7-3b73c24859ac",
+          "name": "CALIFORNIA ROLL INSIDE OUT",
+          "sort_order": 16,
+          "is_active": true,
+          "created_at": "2026-03-19T02:54:54.811Z",
+          "updated_at": "2026-03-19T02:54:54.811Z"
+        },
+        {
+          "id": "c0e3cf01-a25c-43f7-88fe-e61ffc55e669",
+          "name": "CALIFORNIA SPECIAL ROLL",
+          "sort_order": 17,
+          "is_active": true,
+          "created_at": "2026-03-19T02:54:54.811Z",
+          "updated_at": "2026-03-19T02:54:54.811Z"
+        },
+        {
+          "id": "d5c1d77c-b4ba-4ba4-8157-201ea92ac49d",
+          "name": "SPECIAL HOT ROLL",
+          "sort_order": 18,
+          "is_active": true,
+          "created_at": "2026-03-19T02:54:54.811Z",
+          "updated_at": "2026-03-19T02:54:54.811Z"
+        },
+        {
+          "id": "3879ee57-95fa-4fbe-a6d2-969a5cc2e9d3",
+          "name": "MIXPLATTEN FREESTYLE",
+          "sort_order": 19,
+          "is_active": true,
+          "created_at": "2026-03-19T02:54:54.811Z",
+          "updated_at": "2026-03-19T02:54:54.811Z"
+        },
+        {
+          "id": "c0a62196-c083-4d41-a0ca-cc951178f631",
+          "name": "POKE BOWLS",
+          "sort_order": 20,
+          "is_active": true,
+          "created_at": "2026-03-19T02:54:54.811Z",
+          "updated_at": "2026-03-19T02:54:54.811Z"
+        },
+        {
+          "id": "dbe8dad6-256e-4a17-ae7e-7e99608b22f5",
+          "name": "EXTRAS",
+          "sort_order": 21,
+          "is_active": true,
+          "created_at": "2026-03-19T02:54:54.811Z",
+          "updated_at": "2026-03-19T02:54:54.811Z"
+        },
+        {
+          "id": "38b09178-3ba2-4d6f-8eec-8ccddf200a62",
+          "name": "DESSERT",
+          "sort_order": 22,
+          "is_active": true,
+          "created_at": "2026-03-19T02:54:54.811Z",
+          "updated_at": "2026-03-19T02:54:54.811Z"
+        },
+        {
+          "id": "99460f7e-4d6e-4c11-86a7-5b3a59f15d83",
+          "name": "NUDELN & REIS",
+          "sort_order": 23,
+          "is_active": true,
+          "created_at": "2026-03-19T02:54:54.811Z",
+          "updated_at": "2026-03-19T02:54:54.811Z"
+        }
+      ],
+      "menuItems": [
+        {
+          "id": "f84a55a2-20f6-49ea-b8f6-8bc984a3559e",
+          "item_number": "1",
+          "name": "Miso Suppe",
+          "category_id": "8a64e462-e73e-4643-9270-416d84691f80",
+          "price": 5.5,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.811Z",
+          "updated_at": "2026-03-19T02:54:54.811Z"
+        },
+        {
+          "id": "f7ef4f0a-edbe-4493-a93b-6bd70e4ec902",
+          "item_number": "2",
+          "name": "Tom Yam Gai *",
+          "category_id": "8a64e462-e73e-4643-9270-416d84691f80",
+          "price": 6.1,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.811Z",
+          "updated_at": "2026-03-19T03:16:06.304Z"
+        },
+        {
+          "id": "b11a11e3-3a8a-45dd-8fc1-ff813053b177",
+          "item_number": "3",
+          "name": "Tom Kha Gai *",
+          "category_id": "8a64e462-e73e-4643-9270-416d84691f80",
+          "price": 6.6,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.811Z",
+          "updated_at": "2026-03-19T02:54:54.811Z"
+        },
+        {
+          "id": "dda3d4b6-38a4-4706-9589-7a7cf5d83ce7",
+          "item_number": "4",
+          "name": "Tom Yam Gung *",
+          "category_id": "8a64e462-e73e-4643-9270-416d84691f80",
+          "price": 7.2,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.811Z",
+          "updated_at": "2026-03-19T02:54:54.811Z"
+        },
+        {
+          "id": "02fdedf8-ee47-485d-9fd1-fdb8cd6a4a3c",
+          "item_number": "5",
+          "name": "Krupuk",
+          "category_id": "1ab7d075-1447-4c54-88c6-f1072faf7890",
+          "price": 4,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.811Z",
+          "updated_at": "2026-03-19T02:54:54.811Z"
+        },
+        {
+          "id": "eb517749-7d3a-47bb-ab29-10044d0eada1",
+          "item_number": "6",
+          "name": "Vegetarisch",
+          "category_id": "1ab7d075-1447-4c54-88c6-f1072faf7890",
+          "price": 5,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.811Z",
+          "updated_at": "2026-03-19T02:54:54.811Z"
+        },
+        {
+          "id": "e02213aa-410b-49b6-a26b-041abd59f2c9",
+          "item_number": "7",
+          "name": "Hausgemachte",
+          "category_id": "1ab7d075-1447-4c54-88c6-f1072faf7890",
+          "price": 6.6,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.811Z",
+          "updated_at": "2026-03-19T02:54:54.811Z"
+        },
+        {
+          "id": "06cdf2a2-2be0-4dd4-81a3-665d433abbaa",
+          "item_number": "8",
+          "name": "Gebackene Wan Tan",
+          "category_id": "1ab7d075-1447-4c54-88c6-f1072faf7890",
+          "price": 6.6,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.811Z",
+          "updated_at": "2026-03-19T02:54:54.811Z"
+        },
+        {
+          "id": "7396277d-4689-4c41-9e51-ed0619e6b650",
+          "item_number": "9",
+          "name": "Gyoza",
+          "category_id": "1ab7d075-1447-4c54-88c6-f1072faf7890",
+          "price": 7.2,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.811Z",
+          "updated_at": "2026-03-19T02:54:54.811Z"
+        },
+        {
+          "id": "5c6d8fec-a246-4585-a888-669722ee5dbb",
+          "item_number": "10",
+          "name": "Sommerrollen",
+          "category_id": "1ab7d075-1447-4c54-88c6-f1072faf7890",
+          "price": 7.5,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.811Z",
+          "updated_at": "2026-03-19T02:54:54.811Z"
+        },
+        {
+          "id": "b9c0447c-b41f-475e-be01-23a41f0eb3fd",
+          "item_number": "11",
+          "name": "Chicken Wings",
+          "category_id": "1ab7d075-1447-4c54-88c6-f1072faf7890",
+          "price": 7.5,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.811Z",
+          "updated_at": "2026-03-19T02:54:54.811Z"
+        },
+        {
+          "id": "36d84d9c-e856-4a29-a180-b580ddc895c5",
+          "item_number": "12",
+          "name": "Edamame",
+          "category_id": "1ab7d075-1447-4c54-88c6-f1072faf7890",
+          "price": 6.6,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.811Z",
+          "updated_at": "2026-03-19T02:54:54.811Z"
+        },
+        {
+          "id": "b0295381-814a-48cd-b5f6-caed93b6e0cb",
+          "item_number": "13",
+          "name": "Yaki Tori",
+          "category_id": "1ab7d075-1447-4c54-88c6-f1072faf7890",
+          "price": 8,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.811Z",
+          "updated_at": "2026-03-19T02:54:54.811Z"
+        },
+        {
+          "id": "0d47f5d4-26e9-4dc3-b396-a96bf5178767",
+          "item_number": "14",
+          "name": "Satay",
+          "category_id": "1ab7d075-1447-4c54-88c6-f1072faf7890",
+          "price": 8,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.811Z",
+          "updated_at": "2026-03-19T02:54:54.811Z"
+        },
+        {
+          "id": "58fa4ca6-4090-4757-b039-2d76f88fe9c4",
+          "item_number": "15",
+          "name": "Yasai Tempura",
+          "category_id": "1ab7d075-1447-4c54-88c6-f1072faf7890",
+          "price": 8.6,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.811Z",
+          "updated_at": "2026-03-19T02:54:54.811Z"
+        },
+        {
+          "id": "cb75bfb0-ca7a-4312-bca1-711e5d72617d",
+          "item_number": "16",
+          "name": "Tempura Moriawase",
+          "category_id": "1ab7d075-1447-4c54-88c6-f1072faf7890",
+          "price": 12,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.811Z",
+          "updated_at": "2026-03-19T02:54:54.811Z"
+        },
+        {
+          "id": "2e06c6b6-9dda-4c7d-bcf4-166b88220215",
+          "item_number": "17",
+          "name": "Ebi Tempura",
+          "category_id": "1ab7d075-1447-4c54-88c6-f1072faf7890",
+          "price": 13.5,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.811Z",
+          "updated_at": "2026-03-19T02:54:54.811Z"
+        },
+        {
+          "id": "f93f65c9-905b-41ef-b359-ca3ab2ff5816",
+          "item_number": "18",
+          "name": "Mangosalat *",
+          "category_id": "14fe1780-d5ad-4fd5-ae30-ff527dd08d6f",
+          "price": 8.8,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.811Z",
+          "updated_at": "2026-03-19T02:54:54.811Z"
+        },
+        {
+          "id": "45747db2-787a-4750-8fb9-19fd3eb8fb6d",
+          "item_number": "19",
+          "name": "Chicken Salat *",
+          "category_id": "14fe1780-d5ad-4fd5-ae30-ff527dd08d6f",
+          "price": 9.7,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.811Z",
+          "updated_at": "2026-03-19T02:54:54.811Z"
+        },
+        {
+          "id": "4b4efcb4-13a0-487d-bf9e-cc14420d076d",
+          "item_number": "20",
+          "name": "Lach Salat *",
+          "category_id": "14fe1780-d5ad-4fd5-ae30-ff527dd08d6f",
+          "price": 11,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.811Z",
+          "updated_at": "2026-03-19T02:54:54.811Z"
+        },
+        {
+          "id": "871e71b3-ba61-4b61-ad54-2cf2ce38677e",
+          "item_number": "21",
+          "name": "Teng Tam *",
+          "category_id": "14fe1780-d5ad-4fd5-ae30-ff527dd08d6f",
+          "price": 8.3,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.811Z",
+          "updated_at": "2026-03-19T02:54:54.811Z"
+        },
+        {
+          "id": "80ce7090-aad5-4cdf-b88a-54dc2ca445a6",
+          "item_number": "22",
+          "name": "Entensalat *",
+          "category_id": "14fe1780-d5ad-4fd5-ae30-ff527dd08d6f",
+          "price": 11.6,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.811Z",
+          "updated_at": "2026-03-19T02:54:54.811Z"
+        },
+        {
+          "id": "8e48ac84-583d-458e-a776-18ed441f19d6",
+          "item_number": "23",
+          "name": "Rhamen",
+          "category_id": "fca35f8b-0a50-4f6a-8d95-c479ac48f277",
+          "price": 15.9,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.811Z",
+          "updated_at": "2026-03-19T02:54:54.811Z"
+        },
+        {
+          "id": "d6072a23-9c54-458e-8aeb-bb975ad3b404",
+          "item_number": "24",
+          "name": "Chicken Curry",
+          "category_id": "fca35f8b-0a50-4f6a-8d95-c479ac48f277",
+          "price": 17.5,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.811Z",
+          "updated_at": "2026-03-19T02:54:54.811Z"
+        },
+        {
+          "id": "c7925e39-3e52-48ff-a0e7-5c3aa1cd0b18",
+          "item_number": "25",
+          "name": "Okyaku Teller",
+          "category_id": "fca35f8b-0a50-4f6a-8d95-c479ac48f277",
+          "price": 22.5,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.811Z",
+          "updated_at": "2026-03-19T02:54:54.811Z"
+        },
+        {
+          "id": "e8d3db82-883e-4e54-b770-7897f7ea7109",
+          "item_number": "26",
+          "name": "Kokos Vegetarisch",
+          "category_id": "fca35f8b-0a50-4f6a-8d95-c479ac48f277",
+          "price": 14.5,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.811Z",
+          "updated_at": "2026-03-19T02:54:54.811Z"
+        },
+        {
+          "id": "f5e23080-a07a-43b5-bf85-d1b95a7530a3",
+          "item_number": "27",
+          "name": "Japanisches Chicken",
+          "category_id": "fca35f8b-0a50-4f6a-8d95-c479ac48f277",
+          "price": 17,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.811Z",
+          "updated_at": "2026-03-19T02:54:54.811Z"
+        },
+        {
+          "id": "b1362f1d-6ffa-475a-a1d6-2eea7b58efdd",
+          "item_number": "28",
+          "name": "Hühnerfleisch süß-sauer *",
+          "category_id": "3e547e40-8b6b-4088-be1d-df4e6bc2d5e3",
+          "price": 16.9,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.811Z",
+          "updated_at": "2026-03-19T02:54:54.811Z"
+        },
+        {
+          "id": "681abe1d-91ff-4d1e-9d67-6ca197b9e61d",
+          "item_number": "29",
+          "name": "Ente süß-sauer",
+          "category_id": "3e547e40-8b6b-4088-be1d-df4e6bc2d5e3",
+          "price": 20.9,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.811Z",
+          "updated_at": "2026-03-19T02:54:54.811Z"
+        },
+        {
+          "id": "cfd72f6a-4afd-463e-a472-1ea7422fcec2",
+          "item_number": "30",
+          "name": "Ente mit Erdnuß-Soße *",
+          "category_id": "3e547e40-8b6b-4088-be1d-df4e6bc2d5e3",
+          "price": 21.9,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.811Z",
+          "updated_at": "2026-03-19T02:54:54.811Z"
+        },
+        {
+          "id": "46918029-e3fe-488c-84c6-44f23927a812",
+          "item_number": "31",
+          "name": "Ente nach Art des Hauses *",
+          "category_id": "3e547e40-8b6b-4088-be1d-df4e6bc2d5e3",
+          "price": 21.9,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.811Z",
+          "updated_at": "2026-03-19T02:54:54.811Z"
+        },
+        {
+          "id": "056bb384-83d1-44c4-b46d-44a61592a04f",
+          "item_number": "32",
+          "name": "Gäng Gai **",
+          "category_id": "3e547e40-8b6b-4088-be1d-df4e6bc2d5e3",
+          "price": 18.2,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.811Z",
+          "updated_at": "2026-03-19T02:54:54.811Z"
+        },
+        {
+          "id": "8d22e611-fc9d-4e64-95fe-26b5ef686374",
+          "item_number": "33",
+          "name": "Gai Phad Khing *",
+          "category_id": "3e547e40-8b6b-4088-be1d-df4e6bc2d5e3",
+          "price": 18.5,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.811Z",
+          "updated_at": "2026-03-19T02:54:54.811Z"
+        },
+        {
+          "id": "3f1ecc2f-76da-4847-9c7a-445ab9c51abd",
+          "item_number": "34",
+          "name": "Hühnerfleisch mit Erdnuß-Soße *",
+          "category_id": "3e547e40-8b6b-4088-be1d-df4e6bc2d5e3",
+          "price": 18.5,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.811Z",
+          "updated_at": "2026-03-19T02:54:54.811Z"
+        },
+        {
+          "id": "6fc8334b-12a5-4967-a643-c825c632a445",
+          "item_number": "35",
+          "name": "Gäng Nua **",
+          "category_id": "8cceefec-2bac-4c5d-99fd-054b8776567b",
+          "price": 20.9,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.811Z",
+          "updated_at": "2026-03-19T02:54:54.811Z"
+        },
+        {
+          "id": "0e73c82e-956e-4d0d-8504-cd435d21476b",
+          "item_number": "36",
+          "name": "Pa Näng Nua **",
+          "category_id": "8cceefec-2bac-4c5d-99fd-054b8776567b",
+          "price": 21.9,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.811Z",
+          "updated_at": "2026-03-19T02:54:54.811Z"
+        },
+        {
+          "id": "df7d4d19-be75-4e8f-933b-4857d72c0be9",
+          "item_number": "37",
+          "name": "Nua Phad Gra Pau *",
+          "category_id": "8cceefec-2bac-4c5d-99fd-054b8776567b",
+          "price": 18.6,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.811Z",
+          "updated_at": "2026-03-19T02:54:54.811Z"
+        },
+        {
+          "id": "6423a194-763b-4816-82ac-d3757267464f",
+          "item_number": "38",
+          "name": "Rindfleisch Teriyaki *",
+          "category_id": "8cceefec-2bac-4c5d-99fd-054b8776567b",
+          "price": 18.6,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.811Z",
+          "updated_at": "2026-03-19T02:54:54.811Z"
+        },
+        {
+          "id": "f32d3892-7430-4822-ad44-3c054aa0bbb5",
+          "item_number": "39",
+          "name": "Beef Curry *",
+          "category_id": "8cceefec-2bac-4c5d-99fd-054b8776567b",
+          "price": 19.3,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.811Z",
+          "updated_at": "2026-03-19T02:54:54.811Z"
+        },
+        {
+          "id": "5c4b8560-cf67-42ca-a6fb-e1d1d05e353f",
+          "item_number": "40",
+          "name": "Fisch süß-sauer",
+          "category_id": "c0f30ae0-4822-4fcc-b4f0-496cf82ea8a4",
+          "price": 17,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.811Z",
+          "updated_at": "2026-03-19T02:54:54.811Z"
+        },
+        {
+          "id": "189ef154-c8e7-4dd7-b360-7cc274276b31",
+          "item_number": "41",
+          "name": "Gäng Khow Wahn Gung **",
+          "category_id": "c0f30ae0-4822-4fcc-b4f0-496cf82ea8a4",
+          "price": 19.3,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.811Z",
+          "updated_at": "2026-03-19T02:54:54.811Z"
+        },
+        {
+          "id": "154dbd50-ec12-479a-b861-d3ee21cf45fa",
+          "item_number": "42",
+          "name": "Pa Näng Gung **",
+          "category_id": "c0f30ae0-4822-4fcc-b4f0-496cf82ea8a4",
+          "price": 19.3,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.811Z",
+          "updated_at": "2026-03-19T02:54:54.811Z"
+        },
+        {
+          "id": "63ed8aa6-27e0-4199-ac32-1ed7274aa707",
+          "item_number": "43",
+          "name": "Shake Teriyake",
+          "category_id": "c0f30ae0-4822-4fcc-b4f0-496cf82ea8a4",
+          "price": 19.8,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.811Z",
+          "updated_at": "2026-03-19T02:54:54.811Z"
+        },
+        {
+          "id": "d0c149d6-9b2c-4c8f-8c4c-f1940f5ed6a9",
+          "item_number": "44",
+          "name": "Maguro Teriyaki",
+          "category_id": "c0f30ae0-4822-4fcc-b4f0-496cf82ea8a4",
+          "price": 19.8,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.811Z",
+          "updated_at": "2026-03-19T02:54:54.811Z"
+        },
+        {
+          "id": "45abfb94-0c1a-4cf2-8f7d-540788d90c72",
+          "item_number": "45",
+          "name": "Shake mit dunkler Soße",
+          "category_id": "c0f30ae0-4822-4fcc-b4f0-496cf82ea8a4",
+          "price": 19.8,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.811Z",
+          "updated_at": "2026-03-19T02:54:54.811Z"
+        },
+        {
+          "id": "2ac2d8ae-35a3-403f-8783-7f5a266d2f69",
+          "item_number": "46",
+          "name": "Gäng Khow Gung **",
+          "category_id": "c0f30ae0-4822-4fcc-b4f0-496cf82ea8a4",
+          "price": 20.3,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.811Z",
+          "updated_at": "2026-03-19T02:54:54.811Z"
+        },
+        {
+          "id": "9e211018-c91f-4532-b793-07157bc87fbb",
+          "item_number": "47",
+          "name": "Gäng Massaman Gai *",
+          "category_id": "4aaa9328-d6e6-4809-8fbe-2de8853f7d65",
+          "price": 18.5,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.812Z",
+          "updated_at": "2026-03-19T02:54:54.812Z"
+        },
+        {
+          "id": "2591655f-8ef4-4e6d-9f26-e16ff6baf108",
+          "item_number": "48",
+          "name": "Gäng Khow Wan Gai **",
+          "category_id": "4aaa9328-d6e6-4809-8fbe-2de8853f7d65",
+          "price": 18.5,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.812Z",
+          "updated_at": "2026-03-19T02:54:54.812Z"
+        },
+        {
+          "id": "696509a2-4861-48d3-ba8a-b8f30bf08621",
+          "item_number": "49",
+          "name": "Pa Nang Gai **",
+          "category_id": "4aaa9328-d6e6-4809-8fbe-2de8853f7d65",
+          "price": 18.5,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.812Z",
+          "updated_at": "2026-03-19T02:54:54.812Z"
+        },
+        {
+          "id": "251bf288-b9d7-4678-a520-85f26c2a3b95",
+          "item_number": "50",
+          "name": "Gäng Khow Wahn Tofu **",
+          "category_id": "4aaa9328-d6e6-4809-8fbe-2de8853f7d65",
+          "price": 17.4,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.812Z",
+          "updated_at": "2026-03-19T02:54:54.812Z"
+        },
+        {
+          "id": "fd446049-67e0-43a0-be2a-f1b008f3379f",
+          "item_number": "51",
+          "name": "Fisch (Thai Eintopf)",
+          "category_id": "4aaa9328-d6e6-4809-8fbe-2de8853f7d65",
+          "price": 19.8,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.812Z",
+          "updated_at": "2026-03-19T02:54:54.812Z"
+        },
+        {
+          "id": "5d4747c6-0db5-4775-aa01-a930f21cf606",
+          "item_number": "52",
+          "name": "Tofu Phad Pak *",
+          "category_id": "58b2a736-1879-4715-9116-e24a99c7fd18",
+          "price": 15.4,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.812Z",
+          "updated_at": "2026-03-19T02:54:54.812Z"
+        },
+        {
+          "id": "703e67ba-0622-43cd-859d-ec1b01b95cc4",
+          "item_number": "53",
+          "name": "Kung Tun Phad *",
+          "category_id": "58b2a736-1879-4715-9116-e24a99c7fd18",
+          "price": 15.9,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.812Z",
+          "updated_at": "2026-03-19T02:54:54.812Z"
+        },
+        {
+          "id": "68901e51-5115-41c3-9a6c-ae523ddb6ddd",
+          "item_number": "56",
+          "name": "Gemüse Nudelsuppe *",
+          "category_id": "6183ed55-8868-456a-815f-418503c4ebd2",
+          "price": 15.3,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.812Z",
+          "updated_at": "2026-03-19T02:54:54.812Z"
+        },
+        {
+          "id": "dd8a3a6f-6477-4906-b5c4-cfdde096c10d",
+          "item_number": "57",
+          "name": "Rindfleisch Nudelsuppe *",
+          "category_id": "6183ed55-8868-456a-815f-418503c4ebd2",
+          "price": 17.5,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.812Z",
+          "updated_at": "2026-03-19T02:54:54.812Z"
+        },
+        {
+          "id": "a05b659d-3714-4808-a76d-39a8332d74db",
+          "item_number": "58",
+          "name": "Garnelen Nudelsuppe *",
+          "category_id": "6183ed55-8868-456a-815f-418503c4ebd2",
+          "price": 18.6,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.812Z",
+          "updated_at": "2026-03-19T02:54:54.812Z"
+        },
+        {
+          "id": "1426a745-886a-4cd5-b6cb-5ffb1c14815d",
+          "item_number": "62",
+          "name": "Gebratene Nudeln mit Hühnerfleisch, Gemüse und Ei",
+          "category_id": "8f407bac-5f83-45ad-aeed-2cdd694fed14",
+          "price": 9.9,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.812Z",
+          "updated_at": "2026-03-19T02:54:54.812Z"
+        },
+        {
+          "id": "73c1f9a7-d58d-470f-b9c4-21b2f6f19fc5",
+          "item_number": "63",
+          "name": "Gebratener Reis mit Hühnerfleisch, Gemüse und Ei",
+          "category_id": "8f407bac-5f83-45ad-aeed-2cdd694fed14",
+          "price": 10.4,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.812Z",
+          "updated_at": "2026-03-19T02:54:54.812Z"
+        },
+        {
+          "id": "36d4a73e-a6ce-4fad-96f1-d01a5791f7bd",
+          "item_number": "64",
+          "name": "Hühnerfleisch süß-sauer",
+          "category_id": "8f407bac-5f83-45ad-aeed-2cdd694fed14",
+          "price": 12,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.812Z",
+          "updated_at": "2026-03-19T02:54:54.812Z"
+        },
+        {
+          "id": "d1e20528-53eb-4f49-b767-ee2a3b366403",
+          "item_number": "65",
+          "name": "Gebratene Nudeln mit Ente, Gemüse und Ei",
+          "category_id": "8f407bac-5f83-45ad-aeed-2cdd694fed14",
+          "price": 12.5,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.812Z",
+          "updated_at": "2026-03-19T02:54:54.812Z"
+        },
+        {
+          "id": "56191b8b-8de8-4d39-9e07-33b5d4649a2d",
+          "item_number": "66",
+          "name": "Shake",
+          "category_id": "fd8a5466-cca7-47d7-a0e5-743eac57d5e3",
+          "price": 4,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.812Z",
+          "updated_at": "2026-03-19T02:54:54.812Z"
+        },
+        {
+          "id": "6f3ebc78-1da9-44d5-b0a6-86fb97042332",
+          "item_number": "67",
+          "name": "Maguro",
+          "category_id": "fd8a5466-cca7-47d7-a0e5-743eac57d5e3",
+          "price": 5.5,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.812Z",
+          "updated_at": "2026-03-19T02:54:54.812Z"
+        },
+        {
+          "id": "3a55203e-e01f-4102-b4e8-e67a46fb3c4f",
+          "item_number": "68",
+          "name": "Ebi",
+          "category_id": "fd8a5466-cca7-47d7-a0e5-743eac57d5e3",
+          "price": 5.5,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.812Z",
+          "updated_at": "2026-03-19T02:54:54.812Z"
+        },
+        {
+          "id": "3c5da057-74b2-47f2-bdd6-6a5aee2b497f",
+          "item_number": "69",
+          "name": "Avocado",
+          "category_id": "fd8a5466-cca7-47d7-a0e5-743eac57d5e3",
+          "price": 5.2,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.812Z",
+          "updated_at": "2026-03-19T02:54:54.812Z"
+        },
+        {
+          "id": "d4220417-1cf8-4bb0-9cc8-4035a6f58da1",
+          "item_number": "70",
+          "name": "Unagi",
+          "category_id": "fd8a5466-cca7-47d7-a0e5-743eac57d5e3",
+          "price": 6.2,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.812Z",
+          "updated_at": "2026-03-19T02:54:54.812Z"
+        },
+        {
+          "id": "8e88d99f-eeb7-403a-aaa2-dab36e0baf9c",
+          "item_number": "71",
+          "name": "Shiromi",
+          "category_id": "fd8a5466-cca7-47d7-a0e5-743eac57d5e3",
+          "price": 6.2,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.812Z",
+          "updated_at": "2026-03-19T02:54:54.812Z"
+        },
+        {
+          "id": "91465741-5b3f-4a32-8f16-088c9363df86",
+          "item_number": "72",
+          "name": "Tuna, Lachs, Ebi, Shiromi",
+          "category_id": "18ef72f5-a207-49b1-8a51-a66e8d3d5f46",
+          "price": 20,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.812Z",
+          "updated_at": "2026-03-19T02:54:54.812Z"
+        },
+        {
+          "id": "dd46030d-0909-4281-8c8e-50c45eefbaf3",
+          "item_number": "73",
+          "name": "Shake",
+          "category_id": "f88771d7-e4fb-4d97-95f6-99c2ed85c76d",
+          "price": 15,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.812Z",
+          "updated_at": "2026-03-19T02:54:54.812Z"
+        },
+        {
+          "id": "effe78a7-653c-4196-b9a2-e31f04bbd0cd",
+          "item_number": "74",
+          "name": "Maguro",
+          "category_id": "f88771d7-e4fb-4d97-95f6-99c2ed85c76d",
+          "price": 16,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.812Z",
+          "updated_at": "2026-03-19T02:54:54.812Z"
+        },
+        {
+          "id": "42bc31ce-1899-453f-a3f8-c65231961bc9",
+          "item_number": "75",
+          "name": "Shake und Maguro",
+          "category_id": "f88771d7-e4fb-4d97-95f6-99c2ed85c76d",
+          "price": 17,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.812Z",
+          "updated_at": "2026-03-19T02:54:54.812Z"
+        },
+        {
+          "id": "29fb1767-b024-41b7-a326-f72a7cb239df",
+          "item_number": "76",
+          "name": "Sashimi Moriawase",
+          "category_id": "f88771d7-e4fb-4d97-95f6-99c2ed85c76d",
+          "price": 27,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.812Z",
+          "updated_at": "2026-03-19T02:54:54.812Z"
+        },
+        {
+          "id": "ba85ef9f-ff37-4369-b650-9f71ae0990e0",
+          "item_number": "77",
+          "name": "Gebratenes Tuna-Sashimi",
+          "category_id": "d7443f15-ee57-4fdd-964a-7141160f65ea",
+          "price": 19,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.812Z",
+          "updated_at": "2026-03-19T02:54:54.812Z"
+        },
+        {
+          "id": "4d80f0b8-4990-49c5-9ea2-1eeb57969f24",
+          "item_number": "78",
+          "name": "Gebratenes Lachs-Sashimi",
+          "category_id": "d7443f15-ee57-4fdd-964a-7141160f65ea",
+          "price": 13.5,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.812Z",
+          "updated_at": "2026-03-19T02:54:54.812Z"
+        },
+        {
+          "id": "eb57b563-6c81-4a09-acf4-6a0f3b8605df",
+          "item_number": "79",
+          "name": "Shake Maki",
+          "category_id": "e29981f7-17d4-47f2-a0d5-dbda2ada12e3",
+          "price": 8,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.812Z",
+          "updated_at": "2026-03-19T02:54:54.812Z"
+        },
+        {
+          "id": "4e69b825-b611-490b-a65a-56000dbf7960",
+          "item_number": "80",
+          "name": "Gamba Maki",
+          "category_id": "e29981f7-17d4-47f2-a0d5-dbda2ada12e3",
+          "price": 8,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.812Z",
+          "updated_at": "2026-03-19T02:54:54.812Z"
+        },
+        {
+          "id": "209d2868-27c7-4aa1-95b6-605ff1330a85",
+          "item_number": "81",
+          "name": "Maguro Maki",
+          "category_id": "e29981f7-17d4-47f2-a0d5-dbda2ada12e3",
+          "price": 9,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.812Z",
+          "updated_at": "2026-03-19T02:54:54.812Z"
+        },
+        {
+          "id": "b272bc0b-b4c2-4127-a48b-477b3c7e06a8",
+          "item_number": "82",
+          "name": "Kappa Maki",
+          "category_id": "e29981f7-17d4-47f2-a0d5-dbda2ada12e3",
+          "price": 6,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.812Z",
+          "updated_at": "2026-03-19T02:54:54.812Z"
+        },
+        {
+          "id": "8e4ef3f8-db78-45b4-b06b-c4846643800b",
+          "item_number": "83",
+          "name": "Avocado Maki",
+          "category_id": "e29981f7-17d4-47f2-a0d5-dbda2ada12e3",
+          "price": 6.5,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.812Z",
+          "updated_at": "2026-03-19T02:54:54.812Z"
+        },
+        {
+          "id": "74f28fc4-df04-4c7f-a187-81f87ea6c786",
+          "item_number": "84",
+          "name": "Shiromi Butter-Lachs Maki",
+          "category_id": "e29981f7-17d4-47f2-a0d5-dbda2ada12e3",
+          "price": 8.5,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.812Z",
+          "updated_at": "2026-03-19T02:54:54.812Z"
+        },
+        {
+          "id": "43a2e789-eeb9-4d96-948a-b690b1eaecfe",
+          "item_number": "85",
+          "name": "Shake California Roll",
+          "category_id": "64e6b3f4-1b18-4564-9bf7-3b73c24859ac",
+          "price": 15,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.812Z",
+          "updated_at": "2026-03-19T02:54:54.812Z"
+        },
+        {
+          "id": "4ebc9c62-e5fa-44bd-812c-4b3c5fe59589",
+          "item_number": "86",
+          "name": "Tuna California Roll",
+          "category_id": "64e6b3f4-1b18-4564-9bf7-3b73c24859ac",
+          "price": 14.5,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.812Z",
+          "updated_at": "2026-03-19T02:54:54.812Z"
+        },
+        {
+          "id": "a5c61457-4943-4c5d-982a-e163476bf313",
+          "item_number": "87",
+          "name": "Spicy California Roll",
+          "category_id": "64e6b3f4-1b18-4564-9bf7-3b73c24859ac",
+          "price": 14,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.812Z",
+          "updated_at": "2026-03-19T02:54:54.812Z"
+        },
+        {
+          "id": "39d14c1a-8430-478c-9288-c54288a00c9e",
+          "item_number": "90",
+          "name": "Veggi Avocado Roll",
+          "category_id": "c0e3cf01-a25c-43f7-88fe-e61ffc55e669",
+          "price": 13,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.812Z",
+          "updated_at": "2026-03-19T02:54:54.812Z"
+        },
+        {
+          "id": "3d652326-c3c0-4271-9645-0298d3485a09",
+          "item_number": "91",
+          "name": "Green Roll",
+          "category_id": "c0e3cf01-a25c-43f7-88fe-e61ffc55e669",
+          "price": 16.5,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.812Z",
+          "updated_at": "2026-03-19T02:54:54.812Z"
+        },
+        {
+          "id": "840225b9-ae14-4352-9599-09e6362c4ca7",
+          "item_number": "92",
+          "name": "Smoky Salmon Roll",
+          "category_id": "c0e3cf01-a25c-43f7-88fe-e61ffc55e669",
+          "price": 16.5,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.812Z",
+          "updated_at": "2026-03-19T02:54:54.812Z"
+        },
+        {
+          "id": "b50c300a-60fa-4b81-b2ae-d8b20a3c3c29",
+          "item_number": "93",
+          "name": "Yellow Fin Tuna Tartar",
+          "category_id": "c0e3cf01-a25c-43f7-88fe-e61ffc55e669",
+          "price": 14,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.812Z",
+          "updated_at": "2026-03-19T02:54:54.812Z"
+        },
+        {
+          "id": "27a692f0-8f05-4673-8ffa-2e6a22b52180",
+          "item_number": "94",
+          "name": "Tuna Tiger Roll",
+          "category_id": "c0e3cf01-a25c-43f7-88fe-e61ffc55e669",
+          "price": 16.5,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.812Z",
+          "updated_at": "2026-03-19T02:54:54.812Z"
+        },
+        {
+          "id": "c94ad716-1caf-4c4a-abca-68ba37e35345",
+          "item_number": "95",
+          "name": "Surf & Turf",
+          "category_id": "c0e3cf01-a25c-43f7-88fe-e61ffc55e669",
+          "price": 16.5,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.812Z",
+          "updated_at": "2026-03-19T02:54:54.812Z"
+        },
+        {
+          "id": "5fe883a2-67dc-48da-a77d-47c4ed66cd48",
+          "item_number": "96",
+          "name": "Crunchy Roll",
+          "category_id": "c0e3cf01-a25c-43f7-88fe-e61ffc55e669",
+          "price": 14.5,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.812Z",
+          "updated_at": "2026-03-19T02:54:54.812Z"
+        },
+        {
+          "id": "1fdb9b1f-de60-4ff7-b1ae-e82d6f513bbc",
+          "item_number": "97",
+          "name": "Spicy Crunchy Roll",
+          "category_id": "c0e3cf01-a25c-43f7-88fe-e61ffc55e669",
+          "price": 17,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.812Z",
+          "updated_at": "2026-03-19T02:54:54.812Z"
+        },
+        {
+          "id": "c8798124-7672-49cd-8684-5e1b6c3f5632",
+          "item_number": "98",
+          "name": "Crispy Duck Roll",
+          "category_id": "d5c1d77c-b4ba-4ba4-8157-201ea92ac49d",
+          "price": 13.9,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.812Z",
+          "updated_at": "2026-03-19T02:54:54.812Z"
+        },
+        {
+          "id": "71098328-5f9a-478d-9ba0-9056abf540e2",
+          "item_number": "99",
+          "name": "Salmon Hot Roll",
+          "category_id": "d5c1d77c-b4ba-4ba4-8157-201ea92ac49d",
+          "price": 14.9,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.812Z",
+          "updated_at": "2026-03-19T02:54:54.812Z"
+        },
+        {
+          "id": "18e6274e-2e8b-425e-88ae-2e2e1107a4d7",
+          "item_number": "100",
+          "name": "Tuna Hot-Roll",
+          "category_id": "d5c1d77c-b4ba-4ba4-8157-201ea92ac49d",
+          "price": 16.5,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.812Z",
+          "updated_at": "2026-03-19T02:54:54.812Z"
+        },
+        {
+          "id": "215f5faa-3191-4722-ae6b-187f57166dda",
+          "item_number": "101",
+          "name": "Chicken Hot-Roll",
+          "category_id": "d5c1d77c-b4ba-4ba4-8157-201ea92ac49d",
+          "price": 13,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.812Z",
+          "updated_at": "2026-03-19T02:54:54.812Z"
+        },
+        {
+          "id": "430c6831-c8f5-4574-bf1b-32c1e1512885",
+          "item_number": "102",
+          "name": "Gamba Hot-Roll",
+          "category_id": "d5c1d77c-b4ba-4ba4-8157-201ea92ac49d",
+          "price": 15,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.812Z",
+          "updated_at": "2026-03-19T02:54:54.812Z"
+        },
+        {
+          "id": "700bc79e-4f52-43a5-9022-9bbcc027fa5a",
+          "item_number": "103",
+          "name": "Bento",
+          "category_id": "3879ee57-95fa-4fbe-a6d2-969a5cc2e9d3",
+          "price": 24,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.812Z",
+          "updated_at": "2026-03-19T02:54:54.812Z"
+        },
+        {
+          "id": "e65af419-9db9-4229-b59b-5e0ca603819a",
+          "item_number": "104",
+          "name": "OKYAKU Mix 1",
+          "category_id": "3879ee57-95fa-4fbe-a6d2-969a5cc2e9d3",
+          "price": 30,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.812Z",
+          "updated_at": "2026-03-19T02:54:54.812Z"
+        },
+        {
+          "id": "4e32e676-fce9-4f0c-9398-1532769651a1",
+          "item_number": "105",
+          "name": "OKYAKU Mix 2",
+          "category_id": "3879ee57-95fa-4fbe-a6d2-969a5cc2e9d3",
+          "price": 60,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.812Z",
+          "updated_at": "2026-03-19T02:54:54.812Z"
+        },
+        {
+          "id": "d9ea9adc-4f69-4ce9-ae69-532acc168f3e",
+          "item_number": "106",
+          "name": "Menu Traditional",
+          "category_id": "3879ee57-95fa-4fbe-a6d2-969a5cc2e9d3",
+          "price": 33,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.812Z",
+          "updated_at": "2026-03-19T02:54:54.812Z"
+        },
+        {
+          "id": "5fa1d496-3bcb-4a07-80f8-050267d5c204",
+          "item_number": "107",
+          "name": "Luxury Bento",
+          "category_id": "3879ee57-95fa-4fbe-a6d2-969a5cc2e9d3",
+          "price": 100,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.812Z",
+          "updated_at": "2026-03-19T02:54:54.812Z"
+        },
+        {
+          "id": "7f3515a2-73e7-41fe-8000-a7846868a96a",
+          "item_number": "108",
+          "name": "Poke Chicken",
+          "category_id": "c0a62196-c083-4d41-a0ca-cc951178f631",
+          "price": 15.8,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.812Z",
+          "updated_at": "2026-03-19T02:54:54.812Z"
+        },
+        {
+          "id": "838fc5b1-a8f6-41e8-aae2-01c97a403e14",
+          "item_number": "109",
+          "name": "Poke Lachs",
+          "category_id": "c0a62196-c083-4d41-a0ca-cc951178f631",
+          "price": 18,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.812Z",
+          "updated_at": "2026-03-19T02:54:54.812Z"
+        },
+        {
+          "id": "ac204dbc-c24d-483d-922d-979c42ea47c5",
+          "item_number": "110",
+          "name": "Poke Tuna",
+          "category_id": "c0a62196-c083-4d41-a0ca-cc951178f631",
+          "price": 19,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.812Z",
+          "updated_at": "2026-03-19T02:54:54.812Z"
+        },
+        {
+          "id": "54567b4b-fa2d-4b99-a266-e5c6597ae4ae",
+          "item_number": "111",
+          "name": "Poke Tofu",
+          "category_id": "c0a62196-c083-4d41-a0ca-cc951178f631",
+          "price": 15.9,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.812Z",
+          "updated_at": "2026-03-19T02:54:54.812Z"
+        },
+        {
+          "id": "177bb136-5201-41b1-b7d1-19a373996878",
+          "item_number": "112",
+          "name": "Poke Ente",
+          "category_id": "c0a62196-c083-4d41-a0ca-cc951178f631",
+          "price": 17,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.812Z",
+          "updated_at": "2026-03-19T02:54:54.812Z"
+        },
+        {
+          "id": "5605c8e1-b42c-47f2-9359-168a0844fc9b",
+          "item_number": "113",
+          "name": "Wasabi",
+          "category_id": "dbe8dad6-256e-4a17-ae7e-7e99608b22f5",
+          "price": 1.5,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.812Z",
+          "updated_at": "2026-03-19T02:54:54.812Z"
+        },
+        {
+          "id": "bb395765-6dff-45ac-a1b6-539ed5e47732",
+          "item_number": "114",
+          "name": "Ingwer",
+          "category_id": "dbe8dad6-256e-4a17-ae7e-7e99608b22f5",
+          "price": 1.5,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.812Z",
+          "updated_at": "2026-03-19T02:54:54.812Z"
+        },
+        {
+          "id": "b6817a01-c184-4edb-9209-6ce5e8bbc701",
+          "item_number": "120",
+          "name": "Gebackene Banane mit Honig und einer Kugel Eis",
+          "category_id": "38b09178-3ba2-4d6f-8eec-8ccddf200a62",
+          "price": 7.5,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.812Z",
+          "updated_at": "2026-03-19T02:54:54.812Z"
+        },
+        {
+          "id": "62d30381-ddef-461a-939c-54c847d0d6b8",
+          "item_number": "121",
+          "name": "Kokos Eis mit Honig und einer Kugel Eis",
+          "category_id": "38b09178-3ba2-4d6f-8eec-8ccddf200a62",
+          "price": 5.5,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.812Z",
+          "updated_at": "2026-03-19T02:54:54.812Z"
+        },
+        {
+          "id": "f9b367b3-c5c4-4530-bab2-49c772a6b5e6",
+          "item_number": "122",
+          "name": "Gebackene Ananas mit Honig und einer Kugel Eis",
+          "category_id": "38b09178-3ba2-4d6f-8eec-8ccddf200a62",
+          "price": 7.5,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.812Z",
+          "updated_at": "2026-03-19T02:54:54.812Z"
+        },
+        {
+          "id": "a4b980ef-c087-4999-9464-2072008932cb",
+          "item_number": "123",
+          "name": "Mochi Eis (Maracuja & Mango)",
+          "category_id": "38b09178-3ba2-4d6f-8eec-8ccddf200a62",
+          "price": 6.5,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.812Z",
+          "updated_at": "2026-03-19T02:54:54.812Z"
+        },
+        {
+          "id": "04623f09-8e3f-4a71-b993-7c99bb17286e",
+          "item_number": "27 A",
+          "name": "Mango Chicken",
+          "category_id": "fca35f8b-0a50-4f6a-8d95-c479ac48f277",
+          "price": 17.5,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.812Z",
+          "updated_at": "2026-03-19T02:54:54.812Z"
+        },
+        {
+          "id": "70484e61-8a5a-4fe3-9574-11de76470ee3",
+          "item_number": "54A",
+          "name": "Gebratene Nudeln mit Hühnerfleisch, Gemüse und Ei",
+          "category_id": "99460f7e-4d6e-4c11-86a7-5b3a59f15d83",
+          "price": 15.2,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.812Z",
+          "updated_at": "2026-03-19T02:54:54.812Z"
+        },
+        {
+          "id": "ac2910de-ef1c-4284-bb9b-b1c54159490f",
+          "item_number": "54B",
+          "name": "Gebratene Nudeln mit gebackenem Huhn, Gemüse und Ei",
+          "category_id": "99460f7e-4d6e-4c11-86a7-5b3a59f15d83",
+          "price": 16.9,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.812Z",
+          "updated_at": "2026-03-19T02:54:54.812Z"
+        },
+        {
+          "id": "a8332a79-3cb7-454e-a2db-55b692edadee",
+          "item_number": "54C",
+          "name": "Gebratene Nudeln mit Garnelen, Gemüse und Ei",
+          "category_id": "99460f7e-4d6e-4c11-86a7-5b3a59f15d83",
+          "price": 17.5,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.812Z",
+          "updated_at": "2026-03-19T02:54:54.812Z"
+        },
+        {
+          "id": "65a6f171-6f74-4709-9d13-e7f599189e73",
+          "item_number": "54D",
+          "name": "Gebratene Nudeln mit Ente, Gemüse und Ei",
+          "category_id": "99460f7e-4d6e-4c11-86a7-5b3a59f15d83",
+          "price": 19.2,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.812Z",
+          "updated_at": "2026-03-19T02:54:54.812Z"
+        },
+        {
+          "id": "cffb8305-405b-40bf-b560-77f424bd3077",
+          "item_number": "55A",
+          "name": "Gebratener Reis mit Hühnerfleisch, Gemüse und Ei",
+          "category_id": "99460f7e-4d6e-4c11-86a7-5b3a59f15d83",
+          "price": 15.2,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.812Z",
+          "updated_at": "2026-03-19T02:54:54.812Z"
+        },
+        {
+          "id": "04e096d3-f2ef-43e4-bec7-6f5e2d33bf9e",
+          "item_number": "55B",
+          "name": "Gebratener Reis mit Garnelen, Gemüse und Ei",
+          "category_id": "99460f7e-4d6e-4c11-86a7-5b3a59f15d83",
+          "price": 17.5,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.812Z",
+          "updated_at": "2026-03-19T02:54:54.812Z"
+        },
+        {
+          "id": "c9bca921-d983-44cf-8a1b-5cf0dd37e948",
+          "item_number": "55C",
+          "name": "Gebratener Reis mit Ente, Gemüse und Ei",
+          "category_id": "99460f7e-4d6e-4c11-86a7-5b3a59f15d83",
+          "price": 19.2,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-19T02:54:54.812Z",
+          "updated_at": "2026-03-19T02:54:54.812Z"
+        }
+      ],
+      "orders": [
+        {
+          "id": "999563cc-c52b-4d42-8cbc-c1ace95f11c8",
+          "ticket_number": "20260318-001",
+          "status": "cancelled",
+          "order_type": "takeaway",
+          "business_date": "2026-03-18",
+          "customer_name": null,
+          "phone": null,
+          "address": null,
+          "delivery_note": null,
+          "delivery_charge": 0,
+          "discount_amount": 0,
+          "subtotal_amount": 55.3,
+          "total_amount": 55.3,
+          "total_articles": 8,
+          "items": [
+            {
+              "id": "item-1773796903740-87f",
+              "menu_item_id": "11a59b94-f435-48d8-8bd6-65a1595a6a0a",
+              "item_number": "22",
+              "item_name_snapshot": "Paneer Curry",
+              "unit_price_snapshot": 11.9,
+              "unit_price_override": null,
+              "final_unit_price": 11.9,
+              "quantity": 2,
+              "line_total": 23.8,
+              "item_note": ""
+            },
+            {
+              "id": "item-1773796904204-2oc",
+              "menu_item_id": "dc6b16a4-5795-434b-92e8-e0beeea6526b",
+              "item_number": "24",
+              "item_name_snapshot": "Veg Biryani",
+              "unit_price_snapshot": 11,
+              "unit_price_override": null,
+              "final_unit_price": 11,
+              "quantity": 1,
+              "line_total": 11,
+              "item_note": ""
+            },
+            {
+              "id": "item-1773796904688-eyq",
+              "menu_item_id": "f7f41f4b-f672-4c92-ab18-fa2f4505976e",
+              "item_number": "27",
+              "item_name_snapshot": "Steamed Rice",
+              "unit_price_snapshot": 2,
+              "unit_price_override": null,
+              "final_unit_price": 2,
+              "quantity": 1,
+              "line_total": 2,
+              "item_note": ""
+            },
+            {
+              "id": "item-1773796905203-cem",
+              "menu_item_id": "35897c92-90cb-47c1-9216-96a6487a4c41",
+              "item_number": "31",
+              "item_name_snapshot": "Mango Lassi",
+              "unit_price_snapshot": 3.5,
+              "unit_price_override": null,
+              "final_unit_price": 3.5,
+              "quantity": 1,
+              "line_total": 3.5,
+              "item_note": ""
+            },
+            {
+              "id": "item-1773796905756-nmk",
+              "menu_item_id": "10b691e6-9a4e-44c6-a45b-694d157dce9f",
+              "item_number": "34",
+              "item_name_snapshot": "Masala Tea",
+              "unit_price_snapshot": 2.5,
+              "unit_price_override": null,
+              "final_unit_price": 2.5,
+              "quantity": 1,
+              "line_total": 2.5,
+              "item_note": ""
+            },
+            {
+              "id": "item-1773796906903-lef",
+              "menu_item_id": "dddcc203-a8df-4b30-adab-ab1129adb0fa",
+              "item_number": "13",
+              "item_name_snapshot": "Prawn Crackers",
+              "unit_price_snapshot": 5,
+              "unit_price_override": null,
+              "final_unit_price": 5,
+              "quantity": 1,
+              "line_total": 5,
+              "item_note": ""
+            },
+            {
+              "id": "item-1773796907370-onc",
+              "menu_item_id": "f76ad2cc-7065-4e6c-88ea-afdf8d4d6e10",
+              "item_number": "12",
+              "item_name_snapshot": "Chicken Momos",
+              "unit_price_snapshot": 7.5,
+              "unit_price_override": null,
+              "final_unit_price": 7.5,
+              "quantity": 1,
+              "line_total": 7.5,
+              "item_note": ""
+            }
+          ],
+          "ordered_at": "2026-03-18T01:21:50.833Z",
+          "cooking_started_at": "2026-03-18T01:22:00.971Z",
+          "cooking_finished_at": "2026-03-18T01:22:01.868Z",
+          "delivered_at": null,
+          "deleted_at": null,
+          "deleted_by": null,
+          "created_at": "2026-03-18T01:21:50.835Z",
+          "updated_at": "2026-03-18T01:44:20.567Z"
+        },
+        {
+          "id": "5da8f316-b9c8-489d-be62-2f551a4c08c1",
+          "ticket_number": "20260318-002",
+          "status": "delivered",
+          "order_type": "takeaway",
+          "business_date": "2026-03-18",
+          "customer_name": null,
+          "phone": null,
+          "address": null,
+          "delivery_note": null,
+          "delivery_charge": 0,
+          "discount_amount": 0,
+          "subtotal_amount": 31.4,
+          "total_amount": 31.4,
+          "total_articles": 5,
+          "items": [
+            {
+              "id": "item-1773798723869-in2",
+              "menu_item_id": "9d9122f7-3562-4279-8101-257ac73111d8",
+              "item_number": "23",
+              "item_name_snapshot": "Lamb Rogan Josh",
+              "unit_price_snapshot": 14.9,
+              "unit_price_override": null,
+              "final_unit_price": 14.9,
+              "quantity": 1,
+              "line_total": 14.9,
+              "item_note": ""
+            },
+            {
+              "id": "item-1773798724336-22n",
+              "menu_item_id": "dc6b16a4-5795-434b-92e8-e0beeea6526b",
+              "item_number": "24",
+              "item_name_snapshot": "Veg Biryani",
+              "unit_price_snapshot": 11,
+              "unit_price_override": null,
+              "final_unit_price": 11,
+              "quantity": 1,
+              "line_total": 11,
+              "item_note": ""
+            },
+            {
+              "id": "item-1773798724803-ixi",
+              "menu_item_id": "f7f41f4b-f672-4c92-ab18-fa2f4505976e",
+              "item_number": "27",
+              "item_name_snapshot": "Steamed Rice",
+              "unit_price_snapshot": 2,
+              "unit_price_override": null,
+              "final_unit_price": 2,
+              "quantity": 1,
+              "line_total": 2,
+              "item_note": ""
+            },
+            {
+              "id": "item-1773798725300-6j2",
+              "menu_item_id": "0061a826-f0d1-4bdd-98e1-dc3d4627c151",
+              "item_number": "32",
+              "item_name_snapshot": "Mineral Water",
+              "unit_price_snapshot": 1.5,
+              "unit_price_override": null,
+              "final_unit_price": 1.5,
+              "quantity": 1,
+              "line_total": 1.5,
+              "item_note": ""
+            },
+            {
+              "id": "item-1773798725754-pjo",
+              "menu_item_id": "bd15a66d-1c58-4fb2-adc0-4c99c67adae1",
+              "item_number": "33",
+              "item_name_snapshot": "Soft Drink",
+              "unit_price_snapshot": 2,
+              "unit_price_override": null,
+              "final_unit_price": 2,
+              "quantity": 1,
+              "line_total": 2,
+              "item_note": ""
+            }
+          ],
+          "ordered_at": "2026-03-18T01:52:08.647Z",
+          "cooking_started_at": "2026-03-18T01:52:14.168Z",
+          "cooking_finished_at": "2026-03-18T01:52:14.384Z",
+          "delivered_at": "2026-03-18T01:52:17.553Z",
+          "deleted_at": null,
+          "deleted_by": null,
+          "created_at": "2026-03-18T01:52:08.650Z",
+          "updated_at": "2026-03-18T01:52:17.558Z"
+        },
+        {
+          "id": "140d0daf-af7f-45bb-97df-749873f82351",
+          "ticket_number": "20260319-001",
+          "status": "delivered",
+          "order_type": "takeaway",
+          "business_date": "2026-03-19",
+          "customer_name": "Luca",
+          "phone": null,
+          "address": null,
+          "delivery_note": null,
+          "delivery_charge": 0,
+          "discount_amount": 0,
+          "subtotal_amount": 59.3,
+          "total_amount": 59.3,
+          "total_articles": 9,
+          "items": [
+            {
+              "id": "item-1773877270422-1cs",
+              "menu_item_id": "11a59b94-f435-48d8-8bd6-65a1595a6a0a",
+              "item_number": "22",
+              "item_name_snapshot": "Paneer Curry",
+              "unit_price_snapshot": 11.9,
+              "unit_price_override": null,
+              "final_unit_price": 11.9,
+              "quantity": 1,
+              "line_total": 11.9,
+              "item_note": ""
+            },
+            {
+              "id": "item-1773877270916-mrv",
+              "menu_item_id": "dc6b16a4-5795-434b-92e8-e0beeea6526b",
+              "item_number": "24",
+              "item_name_snapshot": "Veg Biryani",
+              "unit_price_snapshot": 11,
+              "unit_price_override": null,
+              "final_unit_price": 11,
+              "quantity": 1,
+              "line_total": 11,
+              "item_note": ""
+            },
+            {
+              "id": "item-1773877271350-4lb",
+              "menu_item_id": "545808d3-adf2-4549-b1cd-b11cc9cfbc59",
+              "item_number": "26",
+              "item_name_snapshot": "Naan Bread",
+              "unit_price_snapshot": 2.5,
+              "unit_price_override": null,
+              "final_unit_price": 2.5,
+              "quantity": 2,
+              "line_total": 5,
+              "item_note": ""
+            },
+            {
+              "id": "item-1773877272316-t12",
+              "menu_item_id": "0061a826-f0d1-4bdd-98e1-dc3d4627c151",
+              "item_number": "32",
+              "item_name_snapshot": "Mineral Water",
+              "unit_price_snapshot": 1.5,
+              "unit_price_override": null,
+              "final_unit_price": 1.5,
+              "quantity": 1,
+              "line_total": 1.5,
+              "item_note": ""
+            },
+            {
+              "id": "item-1773877273999-jca",
+              "menu_item_id": "7473312e-7397-425e-b83a-5b30928971b9",
+              "item_number": "42",
+              "item_name_snapshot": "Mango Kulfi",
+              "unit_price_snapshot": 4.5,
+              "unit_price_override": null,
+              "final_unit_price": 4.5,
+              "quantity": 1,
+              "line_total": 4.5,
+              "item_note": ""
+            },
+            {
+              "id": "item-1773877275202-y02",
+              "menu_item_id": "439e6010-e08a-4135-93f1-2ff977e2c5d8",
+              "item_number": "21",
+              "item_name_snapshot": "Chicken Curry",
+              "unit_price_snapshot": 12.9,
+              "unit_price_override": null,
+              "final_unit_price": 12.9,
+              "quantity": 1,
+              "line_total": 12.9,
+              "item_note": ""
+            },
+            {
+              "id": "item-1773877275735-r2z",
+              "menu_item_id": "dddcc203-a8df-4b30-adab-ab1129adb0fa",
+              "item_number": "13",
+              "item_name_snapshot": "Prawn Crackers",
+              "unit_price_snapshot": 5,
+              "unit_price_override": null,
+              "final_unit_price": 5,
+              "quantity": 1,
+              "line_total": 5,
+              "item_note": ""
+            },
+            {
+              "id": "item-1773877276217-9f0",
+              "menu_item_id": "f76ad2cc-7065-4e6c-88ea-afdf8d4d6e10",
+              "item_number": "12",
+              "item_name_snapshot": "Chicken Momos",
+              "unit_price_snapshot": 7.5,
+              "unit_price_override": null,
+              "final_unit_price": 7.5,
+              "quantity": 1,
+              "line_total": 7.5,
+              "item_note": ""
+            }
+          ],
+          "ordered_at": "2026-03-18T23:41:25.457Z",
+          "cooking_started_at": "2026-03-18T23:41:36.034Z",
+          "cooking_finished_at": "2026-03-18T23:41:37.282Z",
+          "delivered_at": "2026-03-18T23:41:41.183Z",
+          "deleted_at": null,
+          "deleted_by": null,
+          "created_at": "2026-03-18T23:41:25.458Z",
+          "updated_at": "2026-03-18T23:41:41.190Z"
+        },
+        {
+          "id": "6faa7c53-66fb-4fd8-a2d4-f926d14b1320",
+          "ticket_number": "20260319-002",
+          "status": "delivered",
+          "order_type": "takeaway",
+          "business_date": "2026-03-19",
+          "customer_name": null,
+          "phone": null,
+          "address": null,
+          "delivery_note": null,
+          "delivery_charge": 0,
+          "discount_amount": 0,
+          "subtotal_amount": 37.4,
+          "total_amount": 37.4,
+          "total_articles": 6,
+          "items": [
+            {
+              "id": "item-1773877316702-97z",
+              "menu_item_id": "f76ad2cc-7065-4e6c-88ea-afdf8d4d6e10",
+              "item_number": "12",
+              "item_name_snapshot": "Chicken Momos",
+              "unit_price_snapshot": 7.5,
+              "unit_price_override": null,
+              "final_unit_price": 7.5,
+              "quantity": 1,
+              "line_total": 7.5,
+              "item_note": ""
+            },
+            {
+              "id": "item-1773877317266-1gx",
+              "menu_item_id": "dddcc203-a8df-4b30-adab-ab1129adb0fa",
+              "item_number": "13",
+              "item_name_snapshot": "Prawn Crackers",
+              "unit_price_snapshot": 5,
+              "unit_price_override": null,
+              "final_unit_price": 5,
+              "quantity": 2,
+              "line_total": 10,
+              "item_note": ""
+            },
+            {
+              "id": "item-1773877318297-w6a",
+              "menu_item_id": "545808d3-adf2-4549-b1cd-b11cc9cfbc59",
+              "item_number": "26",
+              "item_name_snapshot": "Naan Bread",
+              "unit_price_snapshot": 2.5,
+              "unit_price_override": null,
+              "final_unit_price": 2.5,
+              "quantity": 1,
+              "line_total": 2.5,
+              "item_note": ""
+            },
+            {
+              "id": "item-1773877319966-uos",
+              "menu_item_id": "10b691e6-9a4e-44c6-a45b-694d157dce9f",
+              "item_number": "34",
+              "item_name_snapshot": "Masala Tea",
+              "unit_price_snapshot": 2.5,
+              "unit_price_override": null,
+              "final_unit_price": 2.5,
+              "quantity": 1,
+              "line_total": 2.5,
+              "item_note": ""
+            },
+            {
+              "id": "item-1773877320850-8yf",
+              "menu_item_id": "9d9122f7-3562-4279-8101-257ac73111d8",
+              "item_number": "23",
+              "item_name_snapshot": "Lamb Rogan Josh",
+              "unit_price_snapshot": 14.9,
+              "unit_price_override": null,
+              "final_unit_price": 14.9,
+              "quantity": 1,
+              "line_total": 14.9,
+              "item_note": ""
+            }
+          ],
+          "ordered_at": "2026-03-18T23:42:03.926Z",
+          "cooking_started_at": "2026-03-18T23:42:06.349Z",
+          "cooking_finished_at": "2026-03-18T23:42:07.916Z",
+          "delivered_at": "2026-03-18T23:57:00.283Z",
+          "deleted_at": null,
+          "deleted_by": null,
+          "created_at": "2026-03-18T23:42:03.926Z",
+          "updated_at": "2026-03-18T23:57:00.295Z"
+        },
+        {
+          "id": "145d8858-b2dc-406c-8b86-7ff780d4184b",
+          "ticket_number": "20260319-003",
+          "status": "cancelled",
+          "order_type": "takeaway",
+          "business_date": "2026-03-19",
+          "customer_name": null,
+          "phone": null,
+          "address": null,
+          "delivery_note": null,
+          "delivery_charge": 0,
+          "discount_amount": 0,
+          "subtotal_amount": 30.4,
+          "total_amount": 30.4,
+          "total_articles": 4,
+          "items": [
+            {
+              "id": "item-1773877331418-1wy",
+              "menu_item_id": "9d9122f7-3562-4279-8101-257ac73111d8",
+              "item_number": "23",
+              "item_name_snapshot": "Lamb Rogan Josh",
+              "unit_price_snapshot": 14.9,
+              "unit_price_override": null,
+              "final_unit_price": 14.9,
+              "quantity": 1,
+              "line_total": 14.9,
+              "item_note": ""
+            },
+            {
+              "id": "item-1773877331851-m0x",
+              "menu_item_id": "dc6b16a4-5795-434b-92e8-e0beeea6526b",
+              "item_number": "24",
+              "item_name_snapshot": "Veg Biryani",
+              "unit_price_snapshot": 11,
+              "unit_price_override": null,
+              "final_unit_price": 11,
+              "quantity": 1,
+              "line_total": 11,
+              "item_note": ""
+            },
+            {
+              "id": "item-1773877332317-g91",
+              "menu_item_id": "545808d3-adf2-4549-b1cd-b11cc9cfbc59",
+              "item_number": "26",
+              "item_name_snapshot": "Naan Bread",
+              "unit_price_snapshot": 2.5,
+              "unit_price_override": null,
+              "final_unit_price": 2.5,
+              "quantity": 1,
+              "line_total": 2.5,
+              "item_note": ""
+            },
+            {
+              "id": "item-1773877332749-v21",
+              "menu_item_id": "f7f41f4b-f672-4c92-ab18-fa2f4505976e",
+              "item_number": "27",
+              "item_name_snapshot": "Steamed Rice",
+              "unit_price_snapshot": 2,
+              "unit_price_override": null,
+              "final_unit_price": 2,
+              "quantity": 1,
+              "line_total": 2,
+              "item_note": ""
+            }
+          ],
+          "ordered_at": "2026-03-18T23:42:14.371Z",
+          "cooking_started_at": "2026-03-18T23:42:15.982Z",
+          "cooking_finished_at": null,
+          "delivered_at": null,
+          "deleted_at": null,
+          "deleted_by": null,
+          "created_at": "2026-03-18T23:42:14.371Z",
+          "updated_at": "2026-03-18T23:42:18.451Z"
+        },
+        {
+          "id": "f475f0b9-81cf-4f8e-b894-150b54a923cc",
+          "ticket_number": "20260319-004",
+          "status": "ready",
+          "order_type": "delivery",
+          "business_date": "2026-03-19",
+          "customer_name": "sfsd",
+          "phone": "132435",
+          "address": "22848",
+          "delivery_note": "232fsfdv",
+          "delivery_charge": 2.5,
+          "discount_amount": 0,
+          "subtotal_amount": 43.3,
+          "total_amount": 45.8,
+          "total_articles": 3,
+          "items": [
+            {
+              "id": "item-1773880813515-yri",
+              "menu_item_id": "9d9122f7-3562-4279-8101-257ac73111d8",
+              "item_number": "23",
+              "item_name_snapshot": "Lamb Rogan Josh",
+              "unit_price_snapshot": 14.9,
+              "unit_price_override": null,
+              "final_unit_price": 14.9,
+              "quantity": 2,
+              "line_total": 29.8,
+              "item_note": ""
+            },
+            {
+              "id": "item-1773880815267-mcj",
+              "menu_item_id": "7c66b8cd-17eb-4485-bb95-d711092909e8",
+              "item_number": "25",
+              "item_name_snapshot": "Chicken Tikka Masala",
+              "unit_price_snapshot": 13.5,
+              "unit_price_override": null,
+              "final_unit_price": 13.5,
+              "quantity": 1,
+              "line_total": 13.5,
+              "item_note": ""
+            }
+          ],
+          "ordered_at": "2026-03-19T00:40:29.607Z",
+          "cooking_started_at": "2026-03-19T00:40:31.547Z",
+          "cooking_finished_at": "2026-03-19T00:40:31.746Z",
+          "delivered_at": null,
+          "deleted_at": null,
+          "deleted_by": null,
+          "created_at": "2026-03-19T00:40:29.608Z",
+          "updated_at": "2026-03-19T00:40:31.753Z"
+        },
+        {
+          "id": "4a32407f-1087-46e8-84bb-3bddb5c6a93c",
+          "ticket_number": "20260319-005",
+          "status": "delivered",
+          "order_type": "takeaway",
+          "business_date": "2026-03-19",
+          "customer_name": "mo",
+          "phone": null,
+          "address": null,
+          "delivery_note": null,
+          "delivery_charge": 0,
+          "discount_amount": 0,
+          "subtotal_amount": 41.6,
+          "total_amount": 41.6,
+          "total_articles": 3,
+          "items": [
+            {
+              "id": "item-1773889517272-uvb",
+              "menu_item_id": "dda3d4b6-38a4-4706-9589-7a7cf5d83ce7",
+              "item_number": "4",
+              "item_name_snapshot": "Tom Yam Gung *",
+              "unit_price_snapshot": 7.2,
+              "unit_price_override": null,
+              "final_unit_price": 7.2,
+              "quantity": 1,
+              "line_total": 7.2,
+              "item_note": ""
+            },
+            {
+              "id": "item-1773889518998-ic0",
+              "menu_item_id": "3f1ecc2f-76da-4847-9c7a-445ab9c51abd",
+              "item_number": "34",
+              "item_name_snapshot": "Hühnerfleisch mit Erdnuß-Soße *",
+              "unit_price_snapshot": 18.5,
+              "unit_price_override": null,
+              "final_unit_price": 18.5,
+              "quantity": 1,
+              "line_total": 18.5,
+              "item_note": ""
+            },
+            {
+              "id": "item-1773889537830-uwe",
+              "menu_item_id": "703e67ba-0622-43cd-859d-ec1b01b95cc4",
+              "item_number": "53",
+              "item_name_snapshot": "Kung Tun Phad *",
+              "unit_price_snapshot": 15.9,
+              "unit_price_override": null,
+              "final_unit_price": 15.9,
+              "quantity": 1,
+              "line_total": 15.9,
+              "item_note": ""
+            }
+          ],
+          "ordered_at": "2026-03-19T03:05:42.514Z",
+          "cooking_started_at": "2026-03-19T03:06:33.611Z",
+          "cooking_finished_at": "2026-03-19T03:06:34.532Z",
+          "delivered_at": "2026-03-19T03:15:11.025Z",
+          "deleted_at": null,
+          "deleted_by": null,
+          "created_at": "2026-03-19T03:05:42.515Z",
+          "updated_at": "2026-03-19T03:15:11.036Z"
+        },
+        {
+          "id": "99089667-3c34-40b6-98e7-0123fe5aa44e",
+          "ticket_number": "20260319-006",
+          "status": "delivered",
+          "order_type": "takeaway",
+          "business_date": "2026-03-19",
+          "customer_name": null,
+          "phone": null,
+          "address": null,
+          "delivery_note": null,
+          "delivery_charge": 0,
+          "discount_amount": 0,
+          "subtotal_amount": 28.7,
+          "total_amount": 28.7,
+          "total_articles": 4,
+          "items": [
+            {
+              "id": "item-1773889557914-1oz",
+              "menu_item_id": "e02213aa-410b-49b6-a26b-041abd59f2c9",
+              "item_number": "7",
+              "item_name_snapshot": "Hausgemachte",
+              "unit_price_snapshot": 6.6,
+              "unit_price_override": null,
+              "final_unit_price": 6.6,
+              "quantity": 1,
+              "line_total": 6.6,
+              "item_note": "scharf"
+            },
+            {
+              "id": "item-1773889558430-m2m",
+              "menu_item_id": "5c6d8fec-a246-4585-a888-669722ee5dbb",
+              "item_number": "10",
+              "item_name_snapshot": "Sommerrollen",
+              "unit_price_snapshot": 7.5,
+              "unit_price_override": null,
+              "final_unit_price": 7.5,
+              "quantity": 1,
+              "line_total": 7.5,
+              "item_note": ""
+            },
+            {
+              "id": "item-1773889558914-a0p",
+              "menu_item_id": "36d84d9c-e856-4a29-a180-b580ddc895c5",
+              "item_number": "12",
+              "item_name_snapshot": "Edamame",
+              "unit_price_snapshot": 6.6,
+              "unit_price_override": null,
+              "final_unit_price": 6.6,
+              "quantity": 1,
+              "line_total": 6.6,
+              "item_note": ""
+            },
+            {
+              "id": "item-1773889559596-xzv",
+              "menu_item_id": "b0295381-814a-48cd-b5f6-caed93b6e0cb",
+              "item_number": "13",
+              "item_name_snapshot": "Yaki Tori",
+              "unit_price_snapshot": 8,
+              "unit_price_override": null,
+              "final_unit_price": 8,
+              "quantity": 1,
+              "line_total": 8,
+              "item_note": ""
+            }
+          ],
+          "ordered_at": "2026-03-19T03:06:09.957Z",
+          "cooking_started_at": "2026-03-19T03:06:29.785Z",
+          "cooking_finished_at": "2026-03-19T03:06:31.111Z",
+          "delivered_at": "2026-03-19T03:06:32.512Z",
+          "deleted_at": null,
+          "deleted_by": null,
+          "created_at": "2026-03-19T03:06:09.958Z",
+          "updated_at": "2026-03-19T03:06:32.520Z"
+        },
+        {
+          "id": "028b6562-38a3-4d98-8dbf-ae3132134a7c",
+          "ticket_number": "20260319-007",
+          "status": "cancelled",
+          "order_type": "takeaway",
+          "business_date": "2026-03-19",
+          "customer_name": null,
+          "phone": null,
+          "address": null,
+          "delivery_note": null,
+          "delivery_charge": 0,
+          "discount_amount": 0,
+          "subtotal_amount": 241.09999999999997,
+          "total_amount": 241.09999999999997,
+          "total_articles": 20,
+          "items": [
+            {
+              "id": "item-1773889861777-2nw",
+              "menu_item_id": "d4220417-1cf8-4bb0-9cc8-4035a6f58da1",
+              "item_number": "70",
+              "item_name_snapshot": "Unagi",
+              "unit_price_snapshot": 6.2,
+              "unit_price_override": null,
+              "final_unit_price": 6.2,
+              "quantity": 1,
+              "line_total": 6.2,
+              "item_note": ""
+            },
+            {
+              "id": "item-1773889862275-w87",
+              "menu_item_id": "3a55203e-e01f-4102-b4e8-e67a46fb3c4f",
+              "item_number": "68",
+              "item_name_snapshot": "Ebi",
+              "unit_price_snapshot": 5.5,
+              "unit_price_override": null,
+              "final_unit_price": 5.5,
+              "quantity": 1,
+              "line_total": 5.5,
+              "item_note": ""
+            },
+            {
+              "id": "item-1773889863626-gd0",
+              "menu_item_id": "effe78a7-653c-4196-b9a2-e31f04bbd0cd",
+              "item_number": "74",
+              "item_name_snapshot": "Maguro",
+              "unit_price_snapshot": 16,
+              "unit_price_override": null,
+              "final_unit_price": 16,
+              "quantity": 2,
+              "line_total": 32,
+              "item_note": ""
+            },
+            {
+              "id": "item-1773889864995-sxn",
+              "menu_item_id": "c7925e39-3e52-48ff-a0e7-5c3aa1cd0b18",
+              "item_number": "25",
+              "item_name_snapshot": "Okyaku Teller",
+              "unit_price_snapshot": 22.5,
+              "unit_price_override": null,
+              "final_unit_price": 22.5,
+              "quantity": 1,
+              "line_total": 22.5,
+              "item_note": ""
+            },
+            {
+              "id": "item-1773889866945-glk",
+              "menu_item_id": "4d80f0b8-4990-49c5-9ea2-1eeb57969f24",
+              "item_number": "78",
+              "item_name_snapshot": "Gebratenes Lachs-Sashimi",
+              "unit_price_snapshot": 13.5,
+              "unit_price_override": null,
+              "final_unit_price": 13.5,
+              "quantity": 1,
+              "line_total": 13.5,
+              "item_note": ""
+            },
+            {
+              "id": "item-1773889868878-5b8",
+              "menu_item_id": "f7ef4f0a-edbe-4493-a93b-6bd70e4ec902",
+              "item_number": "2",
+              "item_name_snapshot": "Tom Yam Gai *",
+              "unit_price_snapshot": 6.1,
+              "unit_price_override": null,
+              "final_unit_price": 6.1,
+              "quantity": 4,
+              "line_total": 24.4,
+              "item_note": ""
+            },
+            {
+              "id": "item-1773889873758-vpw",
+              "menu_item_id": "f9b367b3-c5c4-4530-bab2-49c772a6b5e6",
+              "item_number": "122",
+              "item_name_snapshot": "Gebackene Ananas mit Honig und einer Kugel Eis",
+              "unit_price_snapshot": 7.5,
+              "unit_price_override": null,
+              "final_unit_price": 7.5,
+              "quantity": 1,
+              "line_total": 7.5,
+              "item_note": ""
+            },
+            {
+              "id": "item-1773889875243-ohg",
+              "menu_item_id": "a8332a79-3cb7-454e-a2db-55b692edadee",
+              "item_number": "54C",
+              "item_name_snapshot": "Gebratene Nudeln mit Garnelen, Gemüse und Ei",
+              "unit_price_snapshot": 17.5,
+              "unit_price_override": null,
+              "final_unit_price": 17.5,
+              "quantity": 1,
+              "line_total": 17.5,
+              "item_note": ""
+            },
+            {
+              "id": "item-1773889879477-2dz",
+              "menu_item_id": "e02213aa-410b-49b6-a26b-041abd59f2c9",
+              "item_number": "7",
+              "item_name_snapshot": "Hausgemachte",
+              "unit_price_snapshot": 6.6,
+              "unit_price_override": null,
+              "final_unit_price": 6.6,
+              "quantity": 1,
+              "line_total": 6.6,
+              "item_note": ""
+            },
+            {
+              "id": "item-1773889881296-y4c",
+              "menu_item_id": "df7d4d19-be75-4e8f-933b-4857d72c0be9",
+              "item_number": "37",
+              "item_name_snapshot": "Nua Phad Gra Pau *",
+              "unit_price_snapshot": 18.6,
+              "unit_price_override": null,
+              "final_unit_price": 18.6,
+              "quantity": 2,
+              "line_total": 37.2,
+              "item_note": ""
+            },
+            {
+              "id": "item-1773889882562-6k8",
+              "menu_item_id": "056bb384-83d1-44c4-b46d-44a61592a04f",
+              "item_number": "32",
+              "item_name_snapshot": "Gäng Gai **",
+              "unit_price_snapshot": 18.2,
+              "unit_price_override": null,
+              "final_unit_price": 18.2,
+              "quantity": 1,
+              "line_total": 18.2,
+              "item_note": ""
+            },
+            {
+              "id": "item-1773889883828-uzw",
+              "menu_item_id": "d0c149d6-9b2c-4c8f-8c4c-f1940f5ed6a9",
+              "item_number": "44",
+              "item_name_snapshot": "Maguro Teriyaki",
+              "unit_price_snapshot": 19.8,
+              "unit_price_override": null,
+              "final_unit_price": 19.8,
+              "quantity": 1,
+              "line_total": 19.8,
+              "item_note": ""
+            },
+            {
+              "id": "item-1773889886442-tuk",
+              "menu_item_id": "f5e23080-a07a-43b5-bf85-d1b95a7530a3",
+              "item_number": "27",
+              "item_name_snapshot": "Japanisches Chicken",
+              "unit_price_snapshot": 17,
+              "unit_price_override": null,
+              "final_unit_price": 17,
+              "quantity": 1,
+              "line_total": 17,
+              "item_note": ""
+            },
+            {
+              "id": "item-1773889892613-2i3",
+              "menu_item_id": "36d84d9c-e856-4a29-a180-b580ddc895c5",
+              "item_number": "12",
+              "item_name_snapshot": "Edamame",
+              "unit_price_snapshot": 6.6,
+              "unit_price_override": null,
+              "final_unit_price": 6.6,
+              "quantity": 2,
+              "line_total": 13.2,
+              "item_note": ""
+            }
+          ],
+          "ordered_at": "2026-03-19T03:11:36.772Z",
+          "cooking_started_at": "2026-03-19T03:15:02.347Z",
+          "cooking_finished_at": "2026-03-19T03:15:03.763Z",
+          "delivered_at": null,
+          "deleted_at": null,
+          "deleted_by": null,
+          "created_at": "2026-03-19T03:11:36.773Z",
+          "updated_at": "2026-03-19T03:15:07.619Z"
+        },
+        {
+          "id": "9374a99d-dbd5-4309-8f10-16e2d5b74f35",
+          "ticket_number": "20260319-008",
+          "status": "delivered",
+          "order_type": "delivery",
+          "business_date": "2026-03-19",
+          "customer_name": "luca",
+          "phone": "+4915758236080",
+          "address": "20457, Kobestraße 2, c/o 7.01C Rahmani, MD I. A., 2",
+          "delivery_note": "jajdj",
+          "delivery_charge": 2.5,
+          "discount_amount": 0,
+          "subtotal_amount": 83.9,
+          "total_amount": 86.4,
+          "total_articles": 7,
+          "items": [
+            {
+              "id": "item-1773890860211-xs3",
+              "menu_item_id": "5c6d8fec-a246-4585-a888-669722ee5dbb",
+              "item_number": "10",
+              "item_name_snapshot": "Sommerrollen",
+              "unit_price_snapshot": 7.5,
+              "unit_price_override": null,
+              "final_unit_price": 7.5,
+              "quantity": 2,
+              "line_total": 15,
+              "item_note": ""
+            },
+            {
+              "id": "item-1773890860675-aiz",
+              "menu_item_id": "b0295381-814a-48cd-b5f6-caed93b6e0cb",
+              "item_number": "13",
+              "item_name_snapshot": "Yaki Tori",
+              "unit_price_snapshot": 8,
+              "unit_price_override": null,
+              "final_unit_price": 8,
+              "quantity": 1,
+              "line_total": 8,
+              "item_note": ""
+            },
+            {
+              "id": "item-1773890862840-kkq",
+              "menu_item_id": "f93f65c9-905b-41ef-b359-ca3ab2ff5816",
+              "item_number": "18",
+              "item_name_snapshot": "Mangosalat *",
+              "unit_price_snapshot": 8.8,
+              "unit_price_override": null,
+              "final_unit_price": 8.8,
+              "quantity": 1,
+              "line_total": 8.8,
+              "item_note": ""
+            },
+            {
+              "id": "item-1773890863374-dlp",
+              "menu_item_id": "871e71b3-ba61-4b61-ad54-2cf2ce38677e",
+              "item_number": "21",
+              "item_name_snapshot": "Teng Tam *",
+              "unit_price_snapshot": 8.3,
+              "unit_price_override": null,
+              "final_unit_price": 8.3,
+              "quantity": 1,
+              "line_total": 8.3,
+              "item_note": ""
+            },
+            {
+              "id": "item-1773890864457-nc2",
+              "menu_item_id": "cfd72f6a-4afd-463e-a472-1ea7422fcec2",
+              "item_number": "30",
+              "item_name_snapshot": "Ente mit Erdnuß-Soße *",
+              "unit_price_snapshot": 21.9,
+              "unit_price_override": null,
+              "final_unit_price": 21.9,
+              "quantity": 2,
+              "line_total": 43.8,
+              "item_note": ""
+            }
+          ],
+          "ordered_at": "2026-03-19T03:27:48.753Z",
+          "cooking_started_at": "2026-03-19T03:28:11.875Z",
+          "cooking_finished_at": "2026-03-19T03:28:13.257Z",
+          "delivered_at": "2026-03-19T03:28:14.897Z",
+          "deleted_at": null,
+          "deleted_by": null,
+          "created_at": "2026-03-19T03:27:48.754Z",
+          "updated_at": "2026-03-19T03:28:14.905Z"
+        },
+        {
+          "id": "de8771a7-5e24-4251-b26e-dbfa97c626c4",
+          "ticket_number": "20260320-001",
+          "status": "cancelled",
+          "order_type": "takeaway",
+          "business_date": "2026-03-20",
+          "customer_name": null,
+          "phone": null,
+          "address": null,
+          "delivery_note": null,
+          "delivery_charge": 0,
+          "discount_amount": 0,
+          "subtotal_amount": 53.5,
+          "total_amount": 53.5,
+          "total_articles": 6,
+          "items": [
+            {
+              "id": "item-1774034462144-fjz",
+              "menu_item_id": "b11a11e3-3a8a-45dd-8fc1-ff813053b177",
+              "item_number": "3",
+              "item_name_snapshot": "Tom Kha Gai *",
+              "unit_price_snapshot": 6.6,
+              "unit_price_override": null,
+              "final_unit_price": 6.6,
+              "quantity": 2,
+              "line_total": 13.2,
+              "item_note": ""
+            },
+            {
+              "id": "item-1774034463251-81g",
+              "menu_item_id": "eb517749-7d3a-47bb-ab29-10044d0eada1",
+              "item_number": "6",
+              "item_name_snapshot": "Vegetarisch",
+              "unit_price_snapshot": 5,
+              "unit_price_override": null,
+              "final_unit_price": 5,
+              "quantity": 1,
+              "line_total": 5,
+              "item_note": ""
+            },
+            {
+              "id": "item-1774034468908-25x",
+              "menu_item_id": "eb57b563-6c81-4a09-acf4-6a0f3b8605df",
+              "item_number": "79",
+              "item_name_snapshot": "Shake Maki",
+              "unit_price_snapshot": 8,
+              "unit_price_override": null,
+              "final_unit_price": 8,
+              "quantity": 1,
+              "line_total": 8,
+              "item_note": ""
+            },
+            {
+              "id": "item-1774034478295-63f",
+              "menu_item_id": "68901e51-5115-41c3-9a6c-ae523ddb6ddd",
+              "item_number": "56",
+              "item_name_snapshot": "Gemüse Nudelsuppe *",
+              "unit_price_snapshot": 15.3,
+              "unit_price_override": null,
+              "final_unit_price": 15.3,
+              "quantity": 1,
+              "line_total": 15.3,
+              "item_note": ""
+            },
+            {
+              "id": "item-1774034479264-uw0",
+              "menu_item_id": "36d4a73e-a6ce-4fad-96f1-d01a5791f7bd",
+              "item_number": "64",
+              "item_name_snapshot": "Hühnerfleisch süß-sauer",
+              "unit_price_snapshot": 12,
+              "unit_price_override": null,
+              "final_unit_price": 12,
+              "quantity": 1,
+              "line_total": 12,
+              "item_note": ""
+            }
+          ],
+          "ordered_at": "2026-03-20T19:21:24.602Z",
+          "cooking_started_at": "2026-03-20T19:21:32.432Z",
+          "cooking_finished_at": null,
+          "delivered_at": null,
+          "deleted_at": "2026-03-20T19:36:30.939Z",
+          "deleted_by": "admin",
+          "created_at": "2026-03-20T19:21:24.607Z",
+          "updated_at": "2026-03-20T19:36:30.939Z"
+        }
+      ],
+      "auditLog": [
+        {
+          "id": "70a5247f-6ad5-4fe9-9b31-315b9708f2cb",
+          "order_id": "999563cc-c52b-4d42-8cbc-c1ace95f11c8",
+          "event_type": "order_created",
+          "changed_by": "admin",
+          "changed_at": "2026-03-18T01:21:50.852Z",
+          "details": {
+            "ticket_number": "20260318-001"
+          }
+        },
+        {
+          "id": "41998268-259e-41f9-a305-aaded471af8d",
+          "order_id": "999563cc-c52b-4d42-8cbc-c1ace95f11c8",
+          "event_type": "status_changed",
+          "changed_by": "waiter",
+          "changed_at": "2026-03-18T01:22:00.989Z",
+          "details": {
+            "from": "new",
+            "to": "cooking"
+          }
+        },
+        {
+          "id": "b1c252a6-7fb8-460c-8ae5-1a4da7957e69",
+          "order_id": "999563cc-c52b-4d42-8cbc-c1ace95f11c8",
+          "event_type": "status_changed",
+          "changed_by": "waiter",
+          "changed_at": "2026-03-18T01:22:01.885Z",
+          "details": {
+            "from": "cooking",
+            "to": "ready"
+          }
+        },
+        {
+          "id": "87d0aace-49a9-41a6-96a5-ec92de8ecef5",
+          "order_id": "999563cc-c52b-4d42-8cbc-c1ace95f11c8",
+          "event_type": "order_cancelled",
+          "changed_by": "admin",
+          "changed_at": "2026-03-18T01:26:53.476Z",
+          "details": {
+            "reason": ""
+          }
+        },
+        {
+          "id": "08e6245a-30d1-4ff1-bb3f-a57911a50717",
+          "order_id": "999563cc-c52b-4d42-8cbc-c1ace95f11c8",
+          "event_type": "order_cancelled",
+          "changed_by": "admin",
+          "changed_at": "2026-03-18T01:44:20.577Z",
+          "details": {
+            "reason": ""
+          }
+        },
+        {
+          "id": "6ae125d9-ba4a-4130-867f-9484df565be7",
+          "order_id": "5da8f316-b9c8-489d-be62-2f551a4c08c1",
+          "event_type": "order_created",
+          "changed_by": "admin",
+          "changed_at": "2026-03-18T01:52:08.667Z",
+          "details": {
+            "ticket_number": "20260318-002"
+          }
+        },
+        {
+          "id": "ab6841f6-1380-4638-b6f6-6e4c46c1995f",
+          "order_id": "5da8f316-b9c8-489d-be62-2f551a4c08c1",
+          "event_type": "status_changed",
+          "changed_by": "admin",
+          "changed_at": "2026-03-18T01:52:14.181Z",
+          "details": {
+            "from": "new",
+            "to": "cooking"
+          }
+        },
+        {
+          "id": "90217d44-dec7-48d4-9cec-fe60daa58372",
+          "order_id": "5da8f316-b9c8-489d-be62-2f551a4c08c1",
+          "event_type": "status_changed",
+          "changed_by": "admin",
+          "changed_at": "2026-03-18T01:52:14.399Z",
+          "details": {
+            "from": "cooking",
+            "to": "ready"
+          }
+        },
+        {
+          "id": "5ecf5925-1b59-46e2-987b-2b30daac309c",
+          "order_id": "5da8f316-b9c8-489d-be62-2f551a4c08c1",
+          "event_type": "status_changed",
+          "changed_by": "admin",
+          "changed_at": "2026-03-18T01:52:17.574Z",
+          "details": {
+            "from": "ready",
+            "to": "delivered"
+          }
+        },
+        {
+          "id": "9a0f00b8-57c7-47b8-b04c-1a6fa7788cf9",
+          "order_id": "140d0daf-af7f-45bb-97df-749873f82351",
+          "event_type": "order_created",
+          "changed_by": "admin",
+          "changed_at": "2026-03-18T23:41:25.484Z",
+          "details": {
+            "ticket_number": "20260319-001"
+          }
+        },
+        {
+          "id": "22490f96-1d78-4f62-8b65-ecc46ee6b350",
+          "order_id": "140d0daf-af7f-45bb-97df-749873f82351",
+          "event_type": "status_changed",
+          "changed_by": "admin",
+          "changed_at": "2026-03-18T23:41:36.051Z",
+          "details": {
+            "from": "new",
+            "to": "cooking"
+          }
+        },
+        {
+          "id": "0f1de40f-85aa-4749-8fa9-0549f10c0881",
+          "order_id": "140d0daf-af7f-45bb-97df-749873f82351",
+          "event_type": "status_changed",
+          "changed_by": "admin",
+          "changed_at": "2026-03-18T23:41:37.300Z",
+          "details": {
+            "from": "cooking",
+            "to": "ready"
+          }
+        },
+        {
+          "id": "34ed9ac0-89d6-4810-bd84-5b95fa84d122",
+          "order_id": "140d0daf-af7f-45bb-97df-749873f82351",
+          "event_type": "status_changed",
+          "changed_by": "admin",
+          "changed_at": "2026-03-18T23:41:41.199Z",
+          "details": {
+            "from": "ready",
+            "to": "delivered"
+          }
+        },
+        {
+          "id": "84a9714f-b6c4-4618-b5ab-0b50c960c53b",
+          "order_id": "6faa7c53-66fb-4fd8-a2d4-f926d14b1320",
+          "event_type": "order_created",
+          "changed_by": "admin",
+          "changed_at": "2026-03-18T23:42:03.950Z",
+          "details": {
+            "ticket_number": "20260319-002"
+          }
+        },
+        {
+          "id": "a1b4dce5-8b8c-4700-ba32-ec2c307419ab",
+          "order_id": "6faa7c53-66fb-4fd8-a2d4-f926d14b1320",
+          "event_type": "status_changed",
+          "changed_by": "admin",
+          "changed_at": "2026-03-18T23:42:06.365Z",
+          "details": {
+            "from": "new",
+            "to": "cooking"
+          }
+        },
+        {
+          "id": "a09584f9-57e6-4dcc-b6f4-3261c5620e69",
+          "order_id": "6faa7c53-66fb-4fd8-a2d4-f926d14b1320",
+          "event_type": "status_changed",
+          "changed_by": "admin",
+          "changed_at": "2026-03-18T23:42:07.931Z",
+          "details": {
+            "from": "cooking",
+            "to": "ready"
+          }
+        },
+        {
+          "id": "43e16b1c-8b14-4816-a58b-237eddc2f543",
+          "order_id": "145d8858-b2dc-406c-8b86-7ff780d4184b",
+          "event_type": "order_created",
+          "changed_by": "admin",
+          "changed_at": "2026-03-18T23:42:14.393Z",
+          "details": {
+            "ticket_number": "20260319-003"
+          }
+        },
+        {
+          "id": "68515217-c3b5-4591-a135-303a050f309f",
+          "order_id": "145d8858-b2dc-406c-8b86-7ff780d4184b",
+          "event_type": "status_changed",
+          "changed_by": "admin",
+          "changed_at": "2026-03-18T23:42:15.998Z",
+          "details": {
+            "from": "new",
+            "to": "cooking"
+          }
+        },
+        {
+          "id": "c8f17c70-6a38-496c-b95a-a8aed44ff686",
+          "order_id": "145d8858-b2dc-406c-8b86-7ff780d4184b",
+          "event_type": "order_cancelled",
+          "changed_by": "admin",
+          "changed_at": "2026-03-18T23:42:18.457Z",
+          "details": {
+            "reason": ""
+          }
+        },
+        {
+          "id": "cc930d47-e804-46c3-b487-8fb488967183",
+          "order_id": "6faa7c53-66fb-4fd8-a2d4-f926d14b1320",
+          "event_type": "status_changed",
+          "changed_by": "admin",
+          "changed_at": "2026-03-18T23:57:00.308Z",
+          "details": {
+            "from": "ready",
+            "to": "delivered"
+          }
+        },
+        {
+          "id": "84df8355-ac23-44d8-8524-afbef74e4a02",
+          "order_id": "f475f0b9-81cf-4f8e-b894-150b54a923cc",
+          "event_type": "order_created",
+          "changed_by": "waiter",
+          "changed_at": "2026-03-19T00:40:29.625Z",
+          "details": {
+            "ticket_number": "20260319-004"
+          }
+        },
+        {
+          "id": "94aa5c1a-2e89-4b8d-8be3-54542e59f173",
+          "order_id": "f475f0b9-81cf-4f8e-b894-150b54a923cc",
+          "event_type": "status_changed",
+          "changed_by": "waiter",
+          "changed_at": "2026-03-19T00:40:31.571Z",
+          "details": {
+            "from": "new",
+            "to": "cooking"
+          }
+        },
+        {
+          "id": "6c46afbc-7681-4ecd-8ee8-adc425e60314",
+          "order_id": "f475f0b9-81cf-4f8e-b894-150b54a923cc",
+          "event_type": "status_changed",
+          "changed_by": "waiter",
+          "changed_at": "2026-03-19T00:40:31.760Z",
+          "details": {
+            "from": "cooking",
+            "to": "ready"
+          }
+        },
+        {
+          "id": "17dfe172-ae78-49a0-ab3e-0e217ed7f979",
+          "order_id": "4a32407f-1087-46e8-84bb-3bddb5c6a93c",
+          "event_type": "order_created",
+          "changed_by": "admin",
+          "changed_at": "2026-03-19T03:05:42.575Z",
+          "details": {
+            "ticket_number": "20260319-005"
+          }
+        },
+        {
+          "id": "d1f56890-fac0-4f81-9ecf-d1d00c434d33",
+          "order_id": "99089667-3c34-40b6-98e7-0123fe5aa44e",
+          "event_type": "order_created",
+          "changed_by": "admin",
+          "changed_at": "2026-03-19T03:06:09.993Z",
+          "details": {
+            "ticket_number": "20260319-006"
+          }
+        },
+        {
+          "id": "257ddf27-5627-4786-a8f0-4990d8a52458",
+          "order_id": "99089667-3c34-40b6-98e7-0123fe5aa44e",
+          "event_type": "status_changed",
+          "changed_by": "admin",
+          "changed_at": "2026-03-19T03:06:29.818Z",
+          "details": {
+            "from": "new",
+            "to": "cooking"
+          }
+        },
+        {
+          "id": "22416c4a-dd83-4cf3-81a8-4ae0f79c042c",
+          "order_id": "99089667-3c34-40b6-98e7-0123fe5aa44e",
+          "event_type": "status_changed",
+          "changed_by": "admin",
+          "changed_at": "2026-03-19T03:06:31.124Z",
+          "details": {
+            "from": "cooking",
+            "to": "ready"
+          }
+        },
+        {
+          "id": "34dab389-81f2-40f4-b1c7-9f95b1171ef4",
+          "order_id": "99089667-3c34-40b6-98e7-0123fe5aa44e",
+          "event_type": "status_changed",
+          "changed_by": "admin",
+          "changed_at": "2026-03-19T03:06:32.533Z",
+          "details": {
+            "from": "ready",
+            "to": "delivered"
+          }
+        },
+        {
+          "id": "bf40bc49-3096-478a-b9bf-96c85341114c",
+          "order_id": "4a32407f-1087-46e8-84bb-3bddb5c6a93c",
+          "event_type": "status_changed",
+          "changed_by": "admin",
+          "changed_at": "2026-03-19T03:06:33.625Z",
+          "details": {
+            "from": "new",
+            "to": "cooking"
+          }
+        },
+        {
+          "id": "c7d274d0-4604-4d76-a3c2-b0a65b924bd3",
+          "order_id": "4a32407f-1087-46e8-84bb-3bddb5c6a93c",
+          "event_type": "status_changed",
+          "changed_by": "admin",
+          "changed_at": "2026-03-19T03:06:34.549Z",
+          "details": {
+            "from": "cooking",
+            "to": "ready"
+          }
+        },
+        {
+          "id": "cb2fab10-c312-4386-8397-984ea85581d4",
+          "order_id": "028b6562-38a3-4d98-8dbf-ae3132134a7c",
+          "event_type": "order_created",
+          "changed_by": "admin",
+          "changed_at": "2026-03-19T03:11:36.839Z",
+          "details": {
+            "ticket_number": "20260319-007"
+          }
+        },
+        {
+          "id": "122cacb9-7128-4b09-926f-ff542ee6d943",
+          "order_id": "028b6562-38a3-4d98-8dbf-ae3132134a7c",
+          "event_type": "order_edited",
+          "changed_by": "admin",
+          "changed_at": "2026-03-19T03:13:00.935Z",
+          "details": {
+            "reason": "Admin edit"
+          }
+        },
+        {
+          "id": "f0cb042b-e41e-4e0f-a21b-65bb7d047f02",
+          "order_id": "028b6562-38a3-4d98-8dbf-ae3132134a7c",
+          "event_type": "status_changed",
+          "changed_by": "admin",
+          "changed_at": "2026-03-19T03:15:02.399Z",
+          "details": {
+            "from": "new",
+            "to": "cooking"
+          }
+        },
+        {
+          "id": "05931c96-5a7f-4b30-9970-4f71ec925ec7",
+          "order_id": "028b6562-38a3-4d98-8dbf-ae3132134a7c",
+          "event_type": "status_changed",
+          "changed_by": "admin",
+          "changed_at": "2026-03-19T03:15:03.783Z",
+          "details": {
+            "from": "cooking",
+            "to": "ready"
+          }
+        },
+        {
+          "id": "6ed20e96-7e9f-4952-90b2-b4bf87d1f85f",
+          "order_id": "028b6562-38a3-4d98-8dbf-ae3132134a7c",
+          "event_type": "order_cancelled",
+          "changed_by": "admin",
+          "changed_at": "2026-03-19T03:15:07.633Z",
+          "details": {
+            "reason": ""
+          }
+        },
+        {
+          "id": "9cf76804-416d-4ab5-982b-8f7a44478f36",
+          "order_id": "4a32407f-1087-46e8-84bb-3bddb5c6a93c",
+          "event_type": "status_changed",
+          "changed_by": "admin",
+          "changed_at": "2026-03-19T03:15:11.046Z",
+          "details": {
+            "from": "ready",
+            "to": "delivered"
+          }
+        },
+        {
+          "id": "cac27434-5f7b-4227-a9ce-adeab1a22077",
+          "order_id": "9374a99d-dbd5-4309-8f10-16e2d5b74f35",
+          "event_type": "order_created",
+          "changed_by": "admin",
+          "changed_at": "2026-03-19T03:27:48.836Z",
+          "details": {
+            "ticket_number": "20260319-008"
+          }
+        },
+        {
+          "id": "d92bd759-8e24-49fd-a09d-331dd49f3d69",
+          "order_id": "9374a99d-dbd5-4309-8f10-16e2d5b74f35",
+          "event_type": "status_changed",
+          "changed_by": "admin",
+          "changed_at": "2026-03-19T03:28:11.900Z",
+          "details": {
+            "from": "new",
+            "to": "cooking"
+          }
+        },
+        {
+          "id": "da331f07-27b0-4e1e-b860-66f650fbe07e",
+          "order_id": "9374a99d-dbd5-4309-8f10-16e2d5b74f35",
+          "event_type": "status_changed",
+          "changed_by": "admin",
+          "changed_at": "2026-03-19T03:28:13.276Z",
+          "details": {
+            "from": "cooking",
+            "to": "ready"
+          }
+        },
+        {
+          "id": "ae2ac0a0-f8cf-4246-9bab-2a3cf1c35853",
+          "order_id": "9374a99d-dbd5-4309-8f10-16e2d5b74f35",
+          "event_type": "status_changed",
+          "changed_by": "admin",
+          "changed_at": "2026-03-19T03:28:14.917Z",
+          "details": {
+            "from": "ready",
+            "to": "delivered"
+          }
+        },
+        {
+          "id": "7de17300-01f0-4fd4-9040-77a37886e3c0",
+          "order_id": "de8771a7-5e24-4251-b26e-dbfa97c626c4",
+          "event_type": "order_created",
+          "changed_by": "waiter",
+          "changed_at": "2026-03-20T19:21:24.676Z",
+          "details": {
+            "ticket_number": "20260320-001"
+          }
+        },
+        {
+          "id": "6a4bac40-0a55-448e-b05d-9f5fdd5ad939",
+          "order_id": "de8771a7-5e24-4251-b26e-dbfa97c626c4",
+          "event_type": "status_changed",
+          "changed_by": "waiter",
+          "changed_at": "2026-03-20T19:21:32.456Z",
+          "details": {
+            "from": "new",
+            "to": "cooking"
+          }
+        },
+        {
+          "id": "b66d20e1-73af-42b1-82fc-d4ea87e1a748",
+          "order_id": "de8771a7-5e24-4251-b26e-dbfa97c626c4",
+          "event_type": "order_cancelled",
+          "changed_by": "admin",
+          "changed_at": "2026-03-20T19:36:24.900Z",
+          "details": {
+            "reason": ""
+          }
+        },
+        {
+          "id": "f866125a-5ce8-4940-8933-7573fe5f3612",
+          "order_id": "de8771a7-5e24-4251-b26e-dbfa97c626c4",
+          "event_type": "order_deleted",
+          "changed_by": "admin",
+          "changed_at": "2026-03-20T19:36:28.186Z",
+          "details": {}
+        },
+        {
+          "id": "dbf5ae13-d9bf-480e-8cae-e66fb92a43b0",
+          "order_id": "de8771a7-5e24-4251-b26e-dbfa97c626c4",
+          "event_type": "order_deleted",
+          "changed_by": "admin",
+          "changed_at": "2026-03-20T19:36:30.949Z",
+          "details": {}
+        }
+      ],
+      "ticketCounter": {
+        "2026-03-18": 2,
+        "2026-03-19": 8,
+        "2026-03-20": 1
+      }
+    },
+    "9158ca89-5c62-48cd-bca2-187c40f13294": {
+      "settings": {
+        "restaurant_name": "MOMO",
+        "address": "dsdsf",
+        "phone": "1245678676543",
+        "default_delivery_charge": 2.5
+      },
+      "categories": [
+        {
+          "id": "0f9c0fbe-dd7f-4c43-ba1f-2c3f5edbd1ea",
+          "name": "Starters",
+          "sort_order": 0,
+          "is_active": true,
+          "created_at": "2026-03-18T01:41:00.687Z",
+          "updated_at": "2026-03-18T01:41:00.687Z"
+        },
+        {
+          "id": "12a5a02a-3af8-4b89-b611-865ee403096a",
+          "name": "Main Course",
+          "sort_order": 1,
+          "is_active": true,
+          "created_at": "2026-03-18T01:41:00.687Z",
+          "updated_at": "2026-03-18T01:41:00.687Z"
+        },
+        {
+          "id": "f60a75fa-66bc-4bdb-8715-2e8b3f0a243e",
+          "name": "Drinks",
+          "sort_order": 2,
+          "is_active": true,
+          "created_at": "2026-03-18T01:41:00.687Z",
+          "updated_at": "2026-03-18T01:41:00.687Z"
+        },
+        {
+          "id": "bff25ac5-089b-4f91-9e5a-7794ae58034f",
+          "name": "Desserts",
+          "sort_order": 3,
+          "is_active": true,
+          "created_at": "2026-03-18T01:41:00.687Z",
+          "updated_at": "2026-03-18T01:41:00.687Z"
+        },
+        {
+          "id": "4b9d926e-5346-47f1-a8ef-6e64048b10de",
+          "name": "Fleisch",
+          "sort_order": 4,
+          "is_active": true,
+          "created_at": "2026-03-18T01:46:53.809Z",
+          "updated_at": "2026-03-18T01:46:53.809Z"
+        }
+      ],
+      "menuItems": [
+        {
+          "id": "c4e8b9d3-7d5a-4fe8-a4e5-7830a837328d",
+          "item_number": "11",
+          "name": "Veg Momos",
+          "category_id": "0f9c0fbe-dd7f-4c43-ba1f-2c3f5edbd1ea",
+          "price": 6.5,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-18T01:41:00.687Z",
+          "updated_at": "2026-03-18T01:41:00.687Z"
+        },
+        {
+          "id": "42b6c42a-e2df-444d-b80c-2ad2dab2e6a7",
+          "item_number": "12",
+          "name": "Chicken Momos",
+          "category_id": "0f9c0fbe-dd7f-4c43-ba1f-2c3f5edbd1ea",
+          "price": 7.5,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-18T01:41:00.687Z",
+          "updated_at": "2026-03-18T01:41:00.687Z"
+        },
+        {
+          "id": "607f13b1-6428-43a3-b1ee-4d4f9b598baf",
+          "item_number": "13",
+          "name": "Prawn Crackers",
+          "category_id": "0f9c0fbe-dd7f-4c43-ba1f-2c3f5edbd1ea",
+          "price": 5,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-18T01:41:00.687Z",
+          "updated_at": "2026-03-18T01:41:00.687Z"
+        },
+        {
+          "id": "45d95f02-75ce-415f-8fa3-f143a18136c5",
+          "item_number": "14",
+          "name": "Spring Rolls (2)",
+          "category_id": "0f9c0fbe-dd7f-4c43-ba1f-2c3f5edbd1ea",
+          "price": 5.5,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-18T01:41:00.687Z",
+          "updated_at": "2026-03-18T01:41:00.687Z"
+        },
+        {
+          "id": "15d46013-dbad-47ff-b48c-e7bbb019122f",
+          "item_number": "21",
+          "name": "Chicken Curry",
+          "category_id": "12a5a02a-3af8-4b89-b611-865ee403096a",
+          "price": 12.9,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-18T01:41:00.687Z",
+          "updated_at": "2026-03-18T01:41:00.687Z"
+        },
+        {
+          "id": "68b2657e-014c-4a3c-8c60-7570c672e4a2",
+          "item_number": "22",
+          "name": "Paneer Curry",
+          "category_id": "12a5a02a-3af8-4b89-b611-865ee403096a",
+          "price": 11.9,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-18T01:41:00.687Z",
+          "updated_at": "2026-03-18T01:41:00.687Z"
+        },
+        {
+          "id": "462da75d-45f2-4607-abbd-57ba09538247",
+          "item_number": "23",
+          "name": "Lamb Rogan Josh",
+          "category_id": "12a5a02a-3af8-4b89-b611-865ee403096a",
+          "price": 14.9,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-18T01:41:00.687Z",
+          "updated_at": "2026-03-18T01:41:00.687Z"
+        },
+        {
+          "id": "2b45eb47-2aae-41ad-8568-665aee8769ff",
+          "item_number": "24",
+          "name": "Veg Biryani",
+          "category_id": "12a5a02a-3af8-4b89-b611-865ee403096a",
+          "price": 11,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-18T01:41:00.687Z",
+          "updated_at": "2026-03-18T01:41:00.687Z"
+        },
+        {
+          "id": "742062c0-5d2f-4f52-932e-d05e5c0a5c69",
+          "item_number": "25",
+          "name": "Chicken Tikka Masala",
+          "category_id": "12a5a02a-3af8-4b89-b611-865ee403096a",
+          "price": 13.5,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-18T01:41:00.687Z",
+          "updated_at": "2026-03-18T01:41:00.687Z"
+        },
+        {
+          "id": "e41c36b8-3386-493e-a6ea-8f006361bf4b",
+          "item_number": "26",
+          "name": "Naan Bread",
+          "category_id": "12a5a02a-3af8-4b89-b611-865ee403096a",
+          "price": 2.5,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-18T01:41:00.687Z",
+          "updated_at": "2026-03-18T01:41:00.687Z"
+        },
+        {
+          "id": "789552f5-b573-4b3d-8582-9dc877fe1067",
+          "item_number": "27",
+          "name": "Steamed Rice",
+          "category_id": "12a5a02a-3af8-4b89-b611-865ee403096a",
+          "price": 2,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-18T01:41:00.687Z",
+          "updated_at": "2026-03-18T01:41:00.687Z"
+        },
+        {
+          "id": "95264cb0-8b4c-49da-b9ca-b2be84c0b367",
+          "item_number": "31",
+          "name": "Mango Lassi",
+          "category_id": "f60a75fa-66bc-4bdb-8715-2e8b3f0a243e",
+          "price": 3.5,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-18T01:41:00.687Z",
+          "updated_at": "2026-03-18T01:41:00.687Z"
+        },
+        {
+          "id": "b10bbf77-2db9-4222-b5e5-bb61170addf2",
+          "item_number": "32",
+          "name": "Mineral Water",
+          "category_id": "f60a75fa-66bc-4bdb-8715-2e8b3f0a243e",
+          "price": 1.5,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-18T01:41:00.687Z",
+          "updated_at": "2026-03-18T01:41:00.687Z"
+        },
+        {
+          "id": "2a3d1bda-29e2-4893-9327-c0408ab8b0fd",
+          "item_number": "33",
+          "name": "Soft Drink",
+          "category_id": "f60a75fa-66bc-4bdb-8715-2e8b3f0a243e",
+          "price": 2,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-18T01:41:00.687Z",
+          "updated_at": "2026-03-18T01:41:00.687Z"
+        },
+        {
+          "id": "017a4bbf-171a-47c0-a43c-b504ee3d39a3",
+          "item_number": "34",
+          "name": "Masala Tea",
+          "category_id": "f60a75fa-66bc-4bdb-8715-2e8b3f0a243e",
+          "price": 2.5,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-18T01:41:00.687Z",
+          "updated_at": "2026-03-18T01:41:00.687Z"
+        },
+        {
+          "id": "ebd5d76b-da96-4162-984b-9eb90fa04f8b",
+          "item_number": "41",
+          "name": "Gulab Jamun",
+          "category_id": "bff25ac5-089b-4f91-9e5a-7794ae58034f",
+          "price": 4,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-18T01:41:00.687Z",
+          "updated_at": "2026-03-18T01:41:00.687Z"
+        },
+        {
+          "id": "8f868355-ee21-4c6b-93ac-b9ba0798576a",
+          "item_number": "42",
+          "name": "Mango Kulfi",
+          "category_id": "bff25ac5-089b-4f91-9e5a-7794ae58034f",
+          "price": 4.5,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-18T01:41:00.687Z",
+          "updated_at": "2026-03-18T01:41:00.687Z"
+        },
+        {
+          "id": "01714ba3-4a2a-4e60-9fc1-4953661e36c8",
+          "item_number": "51",
+          "name": "Meo",
+          "category_id": "4b9d926e-5346-47f1-a8ef-6e64048b10de",
+          "price": 12.9,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-18T01:47:17.414Z",
+          "updated_at": "2026-03-18T01:47:17.414Z"
+        }
+      ],
+      "orders": [],
+      "auditLog": [],
+      "ticketCounter": {}
+    },
+    "36e4c694-9ad6-45b4-860e-8acfcc2b6e03": {
+      "settings": {
+        "restaurant_name": "Mai Mai",
+        "address": "jdyjdj",
+        "phone": "1234567890",
+        "default_delivery_charge": 2.5
+      },
+      "categories": [
+        {
+          "id": "d98ea6c0-ceca-49b5-b347-6e41f5bbcc39",
+          "name": "Starters",
+          "sort_order": 0,
+          "is_active": true,
+          "created_at": "2026-03-18T22:14:22.153Z",
+          "updated_at": "2026-03-18T22:14:22.153Z"
+        },
+        {
+          "id": "adfa682e-0601-4c14-b703-dc7dfc1cbff1",
+          "name": "Main Course",
+          "sort_order": 1,
+          "is_active": true,
+          "created_at": "2026-03-18T22:14:22.153Z",
+          "updated_at": "2026-03-18T22:14:22.153Z"
+        },
+        {
+          "id": "0c5ad2dc-9141-476f-b813-3cf649db4035",
+          "name": "Drinks",
+          "sort_order": 2,
+          "is_active": true,
+          "created_at": "2026-03-18T22:14:22.153Z",
+          "updated_at": "2026-03-18T22:14:22.153Z"
+        },
+        {
+          "id": "1191f47d-71d0-4f39-a9fc-a1154fb83f98",
+          "name": "Desserts",
+          "sort_order": 3,
+          "is_active": true,
+          "created_at": "2026-03-18T22:14:22.153Z",
+          "updated_at": "2026-03-18T22:14:22.153Z"
+        }
+      ],
+      "menuItems": [
+        {
+          "id": "37ba9bc2-a9fa-44e3-babd-e68257d4c16d",
+          "item_number": "11",
+          "name": "Veg Momos",
+          "category_id": "d98ea6c0-ceca-49b5-b347-6e41f5bbcc39",
+          "price": 6.5,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-18T22:14:22.153Z",
+          "updated_at": "2026-03-18T22:14:22.153Z"
+        },
+        {
+          "id": "bcd8a76d-dea5-40bb-b6ac-b951b09343f9",
+          "item_number": "12",
+          "name": "Chicken Momos",
+          "category_id": "d98ea6c0-ceca-49b5-b347-6e41f5bbcc39",
+          "price": 7.5,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-18T22:14:22.153Z",
+          "updated_at": "2026-03-18T22:14:22.153Z"
+        },
+        {
+          "id": "50baebf1-eea9-40e2-a51f-16324a1ea6cb",
+          "item_number": "13",
+          "name": "Prawn Crackers",
+          "category_id": "d98ea6c0-ceca-49b5-b347-6e41f5bbcc39",
+          "price": 5,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-18T22:14:22.153Z",
+          "updated_at": "2026-03-18T22:14:22.153Z"
+        },
+        {
+          "id": "e6dd14c4-0833-4e52-aee4-18cb37275ee2",
+          "item_number": "14",
+          "name": "Spring Rolls (2)",
+          "category_id": "d98ea6c0-ceca-49b5-b347-6e41f5bbcc39",
+          "price": 5.5,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-18T22:14:22.153Z",
+          "updated_at": "2026-03-18T22:14:22.153Z"
+        },
+        {
+          "id": "b9822c0a-70be-4130-aec3-55e0c7782300",
+          "item_number": "21",
+          "name": "Chicken Curry",
+          "category_id": "adfa682e-0601-4c14-b703-dc7dfc1cbff1",
+          "price": 12.9,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-18T22:14:22.153Z",
+          "updated_at": "2026-03-18T22:14:22.153Z"
+        },
+        {
+          "id": "0ac79626-b37b-4ba6-8123-85d89a21324d",
+          "item_number": "22",
+          "name": "Paneer Curry",
+          "category_id": "adfa682e-0601-4c14-b703-dc7dfc1cbff1",
+          "price": 11.9,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-18T22:14:22.153Z",
+          "updated_at": "2026-03-18T22:14:22.153Z"
+        },
+        {
+          "id": "c9ce55e6-bd71-4e52-b600-9822cb6fb74d",
+          "item_number": "23",
+          "name": "Lamb Rogan Josh",
+          "category_id": "adfa682e-0601-4c14-b703-dc7dfc1cbff1",
+          "price": 14.9,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-18T22:14:22.153Z",
+          "updated_at": "2026-03-18T22:14:22.153Z"
+        },
+        {
+          "id": "8efe5fc1-7d02-495b-a677-be4e2ac8b0b9",
+          "item_number": "24",
+          "name": "Veg Biryani",
+          "category_id": "adfa682e-0601-4c14-b703-dc7dfc1cbff1",
+          "price": 11,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-18T22:14:22.153Z",
+          "updated_at": "2026-03-18T22:14:22.153Z"
+        },
+        {
+          "id": "9f0ba580-366f-4bcc-91e9-01a07af3ede9",
+          "item_number": "25",
+          "name": "Chicken Tikka Masala",
+          "category_id": "adfa682e-0601-4c14-b703-dc7dfc1cbff1",
+          "price": 13.5,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-18T22:14:22.153Z",
+          "updated_at": "2026-03-18T22:14:22.153Z"
+        },
+        {
+          "id": "227e4c76-797e-4e5c-a8f2-a71ca08e2bc4",
+          "item_number": "26",
+          "name": "Naan Bread",
+          "category_id": "adfa682e-0601-4c14-b703-dc7dfc1cbff1",
+          "price": 2.5,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-18T22:14:22.153Z",
+          "updated_at": "2026-03-18T22:14:22.153Z"
+        },
+        {
+          "id": "dba5fb1b-2758-4481-9990-543dc7fb5f57",
+          "item_number": "27",
+          "name": "Steamed Rice",
+          "category_id": "adfa682e-0601-4c14-b703-dc7dfc1cbff1",
+          "price": 2,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-18T22:14:22.153Z",
+          "updated_at": "2026-03-18T22:14:22.153Z"
+        },
+        {
+          "id": "b054132a-46a2-4823-bc51-6f3e9e510c27",
+          "item_number": "31",
+          "name": "Mango Lassi",
+          "category_id": "0c5ad2dc-9141-476f-b813-3cf649db4035",
+          "price": 3.5,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-18T22:14:22.153Z",
+          "updated_at": "2026-03-18T22:14:22.153Z"
+        },
+        {
+          "id": "1e4edc14-1a5d-49d8-84ef-af3c94734b1f",
+          "item_number": "32",
+          "name": "Mineral Water",
+          "category_id": "0c5ad2dc-9141-476f-b813-3cf649db4035",
+          "price": 1.5,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-18T22:14:22.153Z",
+          "updated_at": "2026-03-18T22:14:22.153Z"
+        },
+        {
+          "id": "ca7a36a7-0983-4fb3-83cf-9144d2eb1f78",
+          "item_number": "33",
+          "name": "Soft Drink",
+          "category_id": "0c5ad2dc-9141-476f-b813-3cf649db4035",
+          "price": 2,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-18T22:14:22.153Z",
+          "updated_at": "2026-03-18T22:14:22.153Z"
+        },
+        {
+          "id": "afc51e5b-d0bf-41e0-89f3-9fa64aeb504b",
+          "item_number": "34",
+          "name": "Masala Tea",
+          "category_id": "0c5ad2dc-9141-476f-b813-3cf649db4035",
+          "price": 2.5,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-18T22:14:22.153Z",
+          "updated_at": "2026-03-18T22:14:22.153Z"
+        },
+        {
+          "id": "fab77d2a-0044-44c4-b706-27c0993efac0",
+          "item_number": "41",
+          "name": "Gulab Jamun",
+          "category_id": "1191f47d-71d0-4f39-a9fc-a1154fb83f98",
+          "price": 4,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-18T22:14:22.153Z",
+          "updated_at": "2026-03-18T22:14:22.153Z"
+        },
+        {
+          "id": "5a9727d4-6785-4053-a100-d10c6dfe5c8c",
+          "item_number": "42",
+          "name": "Mango Kulfi",
+          "category_id": "1191f47d-71d0-4f39-a9fc-a1154fb83f98",
+          "price": 4.5,
+          "is_active": true,
+          "notes": "",
+          "created_at": "2026-03-18T22:14:22.153Z",
+          "updated_at": "2026-03-18T22:14:22.153Z"
+        }
+      ],
+      "orders": [],
+      "auditLog": [],
+      "ticketCounter": {}
+    }
+  }
+}
