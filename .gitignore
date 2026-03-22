@@ -2,3 +2,5 @@ node_modules
 release/
 restaurantpov/
 .DS_Store
+.env
+.env.local

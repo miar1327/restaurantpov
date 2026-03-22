@@ -18,6 +18,12 @@ npm run build
 npm run start
 ```
 
+Before `npm run start`, create a root `.env` file with a strong `AUTH_SECRET` because production mode refuses to boot with a missing or weak secret:
+
+```bash
+cp .env.example .env
+```
+
 ## Windows Desktop App
 
 The project now includes an Electron wrapper so the same codebase can run as an offline desktop app on Windows.
