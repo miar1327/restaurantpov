@@ -49,6 +49,7 @@ loadEnvFile();
 export const PORT = Number(
     process.env.PORT || process.env.AUTH_SERVER_PORT || (IS_PROD ? 3000 : 8787),
 );
+export const HOST = process.env.HOST || '0.0.0.0';
 
 export const MYSQL_HOST = process.env.MYSQL_HOST || process.env.DB_HOST || '';
 export const MYSQL_PORT = Number(process.env.MYSQL_PORT || process.env.DB_PORT || 3306);

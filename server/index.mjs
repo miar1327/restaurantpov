@@ -4,7 +4,7 @@
  */
 import express from 'express';
 import path from 'node:path';
-import { PORT, IS_PROD, DIST_DIR } from './config.mjs';
+import { PORT, HOST, IS_PROD, DIST_DIR } from './config.mjs';
 import { sendJson, httpError } from './utils.mjs';
 import { handleProfiles } from './routes/profiles.mjs';
 import { handleAuth } from './routes/auth.mjs';
@@ -58,10 +58,10 @@ app.use((error, req, res, _next) => {
     }
 });
 
-app.listen(PORT, () => {
+app.listen(PORT, HOST, () => {
     console.log(
         IS_PROD
-            ? `Restaurant POV server listening on http://localhost:${PORT}`
-            : `Restaurant POV auth API listening on http://localhost:${PORT}`,
+            ? `Restaurant POV server listening on http://${HOST}:${PORT}`
+            : `Restaurant POV auth API listening on http://${HOST}:${PORT}`,
     );
 });
